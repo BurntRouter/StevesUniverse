@@ -6,20 +6,29 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
-public class amethyst_heart extends Item{
+public class peridot_heart extends Item{
 	public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer entityplayer){
 
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( MItems.amethystW, 1));
+		entityplayer.inventory.addItemStackToInventory(new ItemStack( MItems.peridotC, 1));
 		
+		
+			
+				
 }
 }
+			
+		
 		return itemstack;
+		
 	}
+	
+
 	
 	public boolean hasEffect(ItemStack itemstack)
 	{
@@ -31,7 +40,7 @@ public class amethyst_heart extends Item{
 	  EntityPlayer player = (EntityPlayer) entity;
 	  ItemStack equipped = player.getCurrentEquippedItem();
 	  if(equipped == stack) {
-			  player.addPotionEffect(new PotionEffect(21, 1000, 9));
-		}
-	} 
+	   player.addPotionEffect(new PotionEffect(Potion.digSpeed.id, 6, 5));
+	  }
+	}
 }

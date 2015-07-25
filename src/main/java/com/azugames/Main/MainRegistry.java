@@ -38,8 +38,8 @@ public class MainRegistry {
 	@SidedProxy (clientSide = RefStrings.CLIENTSIDE, serverSide = RefStrings.SERVERSIDE)
 	public static ServerProxy proxy;
 	
-	@Instance
-	public static MainRegistry modInstance;
+//	@Instance
+	public static String modInstance = "stevesuniverse";
 	
 	@EventHandler
 	public static void PreLoad(FMLPreInitializationEvent PreEvent) {
