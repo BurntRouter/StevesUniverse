@@ -4,6 +4,8 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemSword;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
 	
@@ -16,6 +18,12 @@ public class ModItems {
 	durian_juice, fry_bits, giant_woman, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, 
 	pearl_heart, pearl_spear, peridot_claw, peridot_heart, rose_heart, rose_sword, ruby_glove, ruby_heart, ruby_kick, sapphire_glove, 
 	sapphire_heart, sapphire_screech, rose_shield, steven_uklele, whip_it_up;
+	
+	public static ToolMaterial Pearl = EnumHelper.addToolMaterial("Pearl", 3, 1000000, 16.0f, 5.0f, 1);
+	public static ToolMaterial Amethyst = EnumHelper.addToolMaterial("Amethyst", 3, 1000000, 16.0f, 5.0f, 1);
+	public static ToolMaterial Rose = EnumHelper.addToolMaterial("Rose", 3, 1000000, 16.0f, 5.0f, 1);
+	public static ToolMaterial Quartz = EnumHelper.addToolMaterial("Quartz", 3, 1000000, 16.0f, 5.0f, 1);
+	public static ToolMaterial Ruby = EnumHelper.addToolMaterial("Ruby", 3, 1000000, 16.0f, 10.5f, 1);
 	
 	public static void initItems(){
 		amethyst_heart = new amethyst_heart();
@@ -33,11 +41,12 @@ public class ModItems {
 		lapis_heart = new lapis_heart();
 		lapis_hydro = new Item();
 		pearl_heart = new pearl_heart();
-		pearl_spear = new pearl_spear(null);
+		pearl_spear = new pearl_spear(Pearl);
 		peridot_claw = new peridot_claw();
 		peridot_heart = new peridot_heart();
 		rose_heart = new rose_heart();
-		rose_sword = new ItemSword(null);
+		rose_sword = new ItemSword(Rose);
+		rose_shield = new Item();
 		ruby_glove = new Item();
 		ruby_heart = new Item();
 		ruby_kick = new Item();

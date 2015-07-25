@@ -1,6 +1,8 @@
 package com.steveuniverse.main;
 
+import com.steveuniverse.blocks.ModBlocks;
 import com.steveuniverse.client.ModCreativeTabs;
+import com.steveuniverse.entities.ModEntities;
 import com.steveuniverse.items.ModItems;
 
 import cpw.mods.fml.common.Mod;
@@ -26,6 +28,8 @@ public class StevesUniverse {
 		System.out.println("[SteveUniverse]Here we go again... PreInit stated I guess...");
 		ModCreativeTabs.initTabs();
 		ModItems.MainRegistry();
+		ModEntities.registerEntity();
+		ModBlocks.mainRegistry();
 		
 	}
 
