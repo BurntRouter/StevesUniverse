@@ -21,6 +21,7 @@ public class ModBlocks {
 	}
 	
 	public static void initBlocks(){
+<<<<<<< HEAD
 		alexandrite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F);
 		amethyst_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F);
 		amethyst_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F);
@@ -42,6 +43,28 @@ public class ModBlocks {
 		sapphire_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F);
 		sardonyx_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F);
 		sugilite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F);
+=======
+		alexandrite_block = new SUBlock(Material.iron).setBlockName("alexandrite_block");
+		amethyst_block = new SUBlock(Material.iron).setBlockName("amethyst_block");
+		amethyst_ore = new SUBlock(Material.rock).setBlockName("amethyst_ore");
+		garnet_block = new SUBlock(Material.iron).setBlockName("garnet_block");
+		jasper_block = new SUBlock(Material.iron).setBlockName("jasper_block");
+		jasper_ore = new SUBlock(Material.rock).setBlockName("jasper_ore");
+		malachite_block = new SUBlock(Material.iron).setBlockName("malachite_block");
+		opal_block = new SUBlock(Material.iron).setBlockName("opal_block");
+		pearl_block = new SUBlock(Material.iron);
+		pearl_ore = new SUBlock(Material.rock);
+		peridot_block = new SUBlock(Material.iron);
+		peridot_ore = new SUBlock(Material.rock);
+		rainbow_block = new SUBlock(Material.iron);
+		rose_block = new SUBlock(Material.iron);
+		rose_ore = new SUBlock(Material.rock);
+		ruby_block = new SUBlock(Material.iron);
+		sapphire_block = new SUBlock(Material.iron);
+		sapphire_ore = new SUBlock(Material.rock);
+		sardonyx_block = new SUBlock(Material.iron);
+		sugilite_block = new SUBlock(Material.iron);
+>>>>>>> origin/master
 	}
 	
 	public static void regBlock(){
