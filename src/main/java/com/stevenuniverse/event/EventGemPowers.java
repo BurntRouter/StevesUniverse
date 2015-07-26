@@ -1,4 +1,4 @@
-package com.azugames.events;
+package com.stevenuniverse.event;
 
 import com.azugames.Item.MItems;
 import com.azugames.Item.amethystH;

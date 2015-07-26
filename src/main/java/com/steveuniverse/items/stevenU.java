@@ -1,4 +1,4 @@
-package com.azugames.Item;
+package com.steveuniverse.items;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
