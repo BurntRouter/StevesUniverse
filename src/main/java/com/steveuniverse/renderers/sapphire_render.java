@@ -6,8 +6,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
 
-import com.azugames.lib.RefStrings;
 import com.steveuniverse.entities.sapphire_entity;
+import com.steveuniverse.main.StevesUniverse;
 
 public class sapphire_render extends RenderLiving{
 	protected ResourceLocation Sapphire;
@@ -33,7 +33,7 @@ public class sapphire_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-	        Sapphire = new ResourceLocation(RefStrings.MODID + ":textures/entity/Sapphire.png");
+	        Sapphire = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/Sapphire.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

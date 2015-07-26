@@ -2,7 +2,7 @@ package com.steveuniverse.entities;
 
 import net.minecraft.entity.EntityList;
 
-import com.azugames.Main.MainRegistry;
+import com.steveuniverse.main.StevesUniverse;
 
 import cpw.mods.fml.common.registry.EntityRegistry;
 
@@ -10,8 +10,6 @@ public class ModEntities {
 	public static void registerEntity(){
 		CreateEntity(pearlspear_entity.class, "PearlS", 0x008521, 0x00FF0800);
 		CreateEntity(peridot_entity.class, "PeridotLaser", 0x008521, 0x00FF0800);
-		CreateEntity(sonicscreech_entity.class, "SonicSreech", 0x008521, 0x00FF0800);
-		CreateEntity(rubykick_entity.class, "RubyKick", 0x008521, 0x00FF0800);
 		CreateEntity(pearl_entity.class, "Pearl", 0x008521, 0x00FF0800);
 		CreateEntity(peridot_entity.class, "Peridot", 0x008521, 0x00FF0800);
 		CreateEntity(rose_entity.class, "RoseQuartz", 0x008521, 0x00FF0800);
@@ -23,7 +21,7 @@ public class ModEntities {
 		int randomId = EntityRegistry.findGlobalUniqueEntityId();
 	
 		EntityRegistry.registerGlobalEntityID(entityClass, entityName, randomId);
-		EntityRegistry.registerModEntity(entityClass, entityName, randomId, MainRegistry.modInstance, 80, 1, true);
+		EntityRegistry.registerModEntity(entityClass, entityName, randomId, StevesUniverse.instance, 80, 1, true);
 		createEgg(randomId, solidColor, spotColor);
 	}
 	private static void createEgg(int randomId, int solidColor, int spotColor){

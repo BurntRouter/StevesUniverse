@@ -18,14 +18,14 @@ public class ModBlocks {
 	}
 	
 	public static void initBlocks(){
-		alexandrite_block = new SUBlock(Material.iron);
-		amethyst_block = new SUBlock(Material.iron);
-		amethyst_ore = new SUBlock(Material.rock);
-		garnet_block = new SUBlock(Material.iron);
-		jasper_block = new SUBlock(Material.iron);
-		jasper_ore = new SUBlock(Material.rock);
-		malachite_block = new SUBlock(Material.iron);
-		opal_block = new SUBlock(Material.iron);
+		alexandrite_block = new SUBlock(Material.iron).setBlockName("alexandrite_block");
+		amethyst_block = new SUBlock(Material.iron).setBlockName("amethyst_block");
+		amethyst_ore = new SUBlock(Material.rock).setBlockName("amethyst_ore");
+		garnet_block = new SUBlock(Material.iron).setBlockName("garnet_block");
+		jasper_block = new SUBlock(Material.iron).setBlockName("jasper_block");
+		jasper_ore = new SUBlock(Material.rock).setBlockName("jasper_ore");
+		malachite_block = new SUBlock(Material.iron).setBlockName("malachite_block");
+		opal_block = new SUBlock(Material.iron).setBlockName("opal_block");
 		pearl_block = new SUBlock(Material.iron);
 		pearl_ore = new SUBlock(Material.rock);
 		peridot_block = new SUBlock(Material.iron);

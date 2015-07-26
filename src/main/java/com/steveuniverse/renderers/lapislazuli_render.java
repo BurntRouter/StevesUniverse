@@ -6,8 +6,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
 
-import com.azugames.lib.RefStrings;
 import com.steveuniverse.entities.lapislazuli_entity;
+import com.steveuniverse.main.StevesUniverse;
 
 public class lapislazuli_render extends RenderLiving{
 	protected ResourceLocation LapisLazuli;
@@ -33,7 +33,7 @@ public class lapislazuli_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-	        LapisLazuli = new ResourceLocation(RefStrings.MODID + ":textures/entity/LapisLazuli.png");
+	        LapisLazuli = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/LapisLazuli.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

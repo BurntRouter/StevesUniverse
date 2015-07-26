@@ -15,7 +15,7 @@ public class ModItems {
 	}
 	
 	public static Item amethyst_heart, amethyst_whip, bagel, chips, cookie_cat, creamed_corn, dog_nut, 
-	durian_juice, fry_bits, giant_woman, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, 
+	durian_juice, fry_bits, giant_woman, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, lapis_wings, 
 	pearl_heart, pearl_spear, peridot_claw, peridot_heart, rose_heart, rose_sword, ruby_glove, ruby_heart, ruby_kick, sapphire_glove, 
 	sapphire_heart, sapphire_screech, rose_shield, steven_uklele, whip_it_up;
 	
@@ -40,6 +40,7 @@ public class ModItems {
 		jasper_heart = new jasper_heart();
 		lapis_heart = new lapis_heart();
 		lapis_hydro = new Item();
+		lapis_wings = new Item();
 		pearl_heart = new pearl_heart();
 		pearl_spear = new pearl_spear(Pearl);
 		peridot_claw = new peridot_claw();
@@ -69,11 +70,12 @@ public class ModItems {
 		GameRegistry.registerItem(dog_nut, "dog_nut");
 		GameRegistry.registerItem(durian_juice, "durian_juice");
 		GameRegistry.registerItem(fry_bits, "fry_bits");
-		GameRegistry.registerItem(giant_woman, "giant_woman");
+//		GameRegistry.registerItem(giant_woman, "giant_woman");
 		GameRegistry.registerItem(jasper_crashhelmet, "jasper_crashhelmet");
 		GameRegistry.registerItem(jasper_heart, "jasper_heart");
 		GameRegistry.registerItem(lapis_heart, "lapis_heart");
-		GameRegistry.registerItem(lapis_hydro, "lapis_hydro");
+//		GameRegistry.registerItem(lapis_hydro, "lapis_hydro");
+		GameRegistry.registerItem(lapis_wings, "lapis_wings");
 		GameRegistry.registerItem(pearl_heart, "pearl_heart");
 		GameRegistry.registerItem(pearl_spear, "pearl_spear");
 		GameRegistry.registerItem(peridot_claw, "peridot_claw");

@@ -1,7 +1,5 @@
 package com.steveuniverse.entities;
 
-import com.azugames.Item.MItems;
-
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAttackOnCollide;

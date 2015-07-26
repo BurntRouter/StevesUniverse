@@ -1,7 +1,5 @@
 package com.steveuniverse.items;
 
-import com.azugames.Item.MItems;
-
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -16,11 +14,11 @@ public class rose_heart extends Item{
 
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( MItems.quartzS, 1));
+		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.rose_sword, 1));
 		
 		for(int counter1 = 1; counter1 <= 1; counter1++){
 			if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-			entityplayer.inventory.addItemStackToInventory(new ItemStack( MItems.roseS, 1));
+			entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.rose_shield, 1));
 		
 			
 				

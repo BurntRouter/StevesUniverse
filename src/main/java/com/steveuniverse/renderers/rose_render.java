@@ -6,8 +6,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
 
-import com.azugames.lib.RefStrings;
 import com.steveuniverse.entities.rose_entity;
+import com.steveuniverse.main.StevesUniverse;
 
 public class rose_render extends RenderLiving{
 	protected ResourceLocation RoseQuartz;
@@ -32,7 +32,7 @@ public class rose_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-		   RoseQuartz = new ResourceLocation(RefStrings.MODID + ":textures/entity/RoseQuartz.png");
+		   RoseQuartz = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/RoseQuartz.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

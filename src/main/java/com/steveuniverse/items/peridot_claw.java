@@ -1,6 +1,6 @@
 package com.steveuniverse.items;
 
-import com.azugames.entity.EntityPeridotLaser;
+import com.steveuniverse.entities.peridotlaser_entity;
 
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.player.EntityPlayer;
@@ -15,7 +15,7 @@ public class peridot_claw extends Item{
 		world.playSoundAtEntity(player, "random.bow", 0.7f, 0.8f);
 	
 		if(!world.isRemote){
-			world.spawnEntityInWorld(new EntityPeridotLaser(world, player));
+			world.spawnEntityInWorld(new peridotlaser_entity(world, player));
 		}
 		
 		return itemstack;
