@@ -6,8 +6,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
 
-import com.azugames.lib.RefStrings;
 import com.steveuniverse.entities.ruby_entity;
+import com.steveuniverse.main.StevesUniverse;
 
 public class ruby_render extends RenderLiving{
 	protected ResourceLocation Ruby;
@@ -32,7 +32,7 @@ public class ruby_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-		   Ruby = new ResourceLocation(RefStrings.MODID + ":textures/entity/Ruby.png");
+		   Ruby = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/Ruby.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

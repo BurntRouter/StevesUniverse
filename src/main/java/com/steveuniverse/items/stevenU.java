@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.client.event.sound.PlaySoundEvent;
 
 public class stevenU extends Item{
-	public void onItemRightClick(ItemStack itemStack, World world, Entity entity, int par4, boolean par5)
+/**	public void onItemRightClick(ItemStack itemStack, World world, Entity entity, int par4, boolean par5)
 	{
 	EntityPlayer player = (EntityPlayer) entity;
 	ItemStack heldItem = player.getCurrentEquippedItem();
@@ -56,7 +56,7 @@ public class stevenU extends Item{
 							}
 						}
 					}
-				}
+				} */
 		
 
 

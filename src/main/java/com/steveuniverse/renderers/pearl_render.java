@@ -1,7 +1,7 @@
 package com.steveuniverse.renderers;
 
-import com.azugames.lib.RefStrings;
 import com.steveuniverse.entities.pearl_entity;
+import com.steveuniverse.main.StevesUniverse;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
@@ -33,7 +33,7 @@ public class pearl_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-	        Pearl = new ResourceLocation(RefStrings.MODID + ":textures/entity/pearl1.png");
+	        Pearl = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/pearl1.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

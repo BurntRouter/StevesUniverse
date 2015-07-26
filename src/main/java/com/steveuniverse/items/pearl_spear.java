@@ -1,6 +1,6 @@
 package com.steveuniverse.items;
 
-import com.azugames.entity.EntityPearlS;
+import com.steveuniverse.entities.pearlspear_entity;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -23,7 +23,7 @@ public class pearl_spear extends ItemSword{
 		world.playSoundAtEntity(player, "random.bow", 0.7f, 0.8f);
 	
 		if(!world.isRemote){
-			world.spawnEntityInWorld(new EntityPearlS(world, player));
+			world.spawnEntityInWorld(new pearlspear_entity(world, player));
 		}
 		
 		return itemstack;

@@ -1,7 +1,5 @@
 package com.steveuniverse.items;
 
-import com.azugames.Item.MItems;
-
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -14,7 +12,7 @@ public class amethyst_heart extends Item{
 
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( MItems.amethystW, 1));
+		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.amethyst_whip, 1));
 		
 }
 }
