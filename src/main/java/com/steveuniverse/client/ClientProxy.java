@@ -7,7 +7,6 @@ import com.steveuniverse.entities.peridot_entity;
 import com.steveuniverse.entities.peridotlaser_entity;
 import com.steveuniverse.entities.rose_entity;
 import com.steveuniverse.entities.ruby_entity;
-import com.steveuniverse.entities.rubykick_entity;
 import com.steveuniverse.entities.sapphire_entity;
 import com.steveuniverse.entities.sonicscreech_entity;
 import com.steveuniverse.items.ModItems;

@@ -29,6 +29,7 @@ public class ModItems {
 	public static ToolMaterial Ruby = EnumHelper.addToolMaterial("Ruby", 3, 1000000, 16.0f, 10.5f, 1);
 	
 	public static void initItems(){
+<<<<<<< HEAD
 		amethyst = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst").setUnlocalizedName("amethyst");
 		amethyst_heart = new amethyst_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst").setUnlocalizedName("amethyst_heart");
 		amethyst_whip = new amethyst_whip().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst_whip").setUnlocalizedName("amthyst_whip");
@@ -69,6 +70,36 @@ public class ModItems {
 		steven_uklele = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":steven_ukulele").setUnlocalizedName("steven_uklele");
 		sugilite = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sugilite").setUnlocalizedName("sugilite");
 		whip_it_up = new ItemFood(6, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":whip_it_up").setUnlocalizedName("whip_it_up");
+=======
+		amethyst_heart = new amethyst_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst").setUnlocalizedName("amethyst_heart");
+		amethyst_whip = new amethyst_whip().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst_whip");
+		bagel = new ItemFood(3, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":bagel_sandwich");
+		chips = new ItemFood(4, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":CHAAAPS");
+		cookie_cat = new ItemFood(10, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":cookie_cat");
+		creamed_corn = new ItemFood(5, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":creamed_corn");
+		dog_nut = new ItemFood(7, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":dog_nut");
+		durian_juice = new ItemFood(3, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":durian_juice");
+		fry_bits = new ItemFood(4, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":fry_bits");
+		giant_woman = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":giant_woman");
+		jasper_crashhelmet = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":jasper_crashhelmet");
+		jasper_heart = new jasper_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":jasper_heart");
+		lapis_heart = new lapis_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":lapis");
+		lapis_wings = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":lapis_wings");
+		pearl_heart = new pearl_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl");
+		pearl_spear = new pearl_spear(Pearl).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl_spear").setUnlocalizedName("pearl_spear");
+		peridot_claw = new peridot_claw().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":peridot_claw");
+		peridot_heart = new peridot_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":peridot");
+		rose_heart = new rose_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose");
+		rose_sword = new ItemSword(Rose).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sword");
+		rose_shield = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sheild");
+		ruby_glove = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_glove");
+		ruby_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby");
+		sapphire_screech = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sonic");
+		sapphire_glove = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire_glove");
+		sapphire_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire");
+		steven_uklele = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":steven_ukulele");
+		whip_it_up = new ItemFood(6, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":whip_it_up");
+>>>>>>> origin/master
 		
 		
 	}
