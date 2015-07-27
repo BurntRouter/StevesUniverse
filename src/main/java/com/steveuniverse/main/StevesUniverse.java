@@ -30,6 +30,7 @@ public class StevesUniverse {
 		ModItems.MainRegistry();
 		ModEntities.registerEntity();
 		ModBlocks.mainRegistry();
+		proxy.registerRenderers();
 		
 	}
 
