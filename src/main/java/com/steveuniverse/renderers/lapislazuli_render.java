@@ -2,6 +2,7 @@ package com.steveuniverse.renderers;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
+import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
@@ -10,10 +11,10 @@ import com.steveuniverse.entities.lapislazuli_entity;
 import com.steveuniverse.main.StevesUniverse;
 
 public class lapislazuli_render extends RenderLiving{
-	protected ResourceLocation LapisLazuli;
-	public lapislazuli_render(ModelBase parModelBase, float parShadowSize) {
-		super(parModelBase, parShadowSize);
-		setEntityTexture();
+
+	public lapislazuli_render(RenderManager p_i46153_1_, ModelBase p_i46153_2_,
+			float p_i46153_3_) {
+		super(p_i46153_1_, p_i46153_2_, p_i46153_3_);
 		
 	}
 	@Override
@@ -31,14 +32,12 @@ public class lapislazuli_render extends RenderLiving{
         // custom entity, eg. GL11.glScalef(entity.scaleFactor, entity.scaleFactor, 
         // entity.scaleFactor); 
     }
-	   protected void setEntityTexture()
-	    {
-	        LapisLazuli = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/LapisLazuli.png");
-	    }
+	       public static final ResourceLocation textureLocation = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/LapisLazuli.png");
+
 	@Override
-	protected ResourceLocation getEntityTexture(Entity parEntity) {
+	protected ResourceLocation getEntityTexture(Entity entity) {
 		// TODO Auto-generated method stub
-		return LapisLazuli;
+		return textureLocation;
 	}
 
 }

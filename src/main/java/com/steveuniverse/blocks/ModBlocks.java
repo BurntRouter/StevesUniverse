@@ -20,28 +20,30 @@ public class ModBlocks {
 		regBlock();
 	}
 	
+	public static String modid = StevesUniverse.MODID;
+	
 	public static void initBlocks(){
-		alexandrite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName("alexandrite_block");
-		amethyst_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName("amethyst_block");
-		amethyst_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName("amethyst_ore");
-		garnet_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName("garnet_block");
-		jasper_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName("jasper_block");
-		jasper_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName("jasper_ore");
-		malachite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName("malachite_block");
-		opal_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		pearl_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		pearl_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName();
-		peridot_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		peridot_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName();
-		rainbow_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		rose_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		rose_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName();
-		ruby_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		ruby_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName();
-		sapphire_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		sapphire_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName();
-		sardonyx_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
-		sugilite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName();
+		alexandrite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"alexandrite_block").setBlockName("alexandrite_block");
+		amethyst_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"amethyst_block").setBlockName("amethyst_block");
+		amethyst_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(modid + ":" +"amethyst_ore").setBlockName("amethyst_ore");
+		garnet_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"garnet_block").setBlockName("garnet_block");
+		jasper_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"jasper_block").setBlockName("jasper_block");
+		jasper_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(modid + ":" +"jasper_ore").setBlockName("jasper_ore");
+		malachite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"malachite_block").setBlockName("malachite_block");
+		opal_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"opal_block").setBlockName("opal_block");
+		pearl_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"pearl_block").setBlockName("pearl_block");
+		pearl_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(modid + ":" +"pearl_ore").setBlockName("pearl_ore");
+		peridot_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"peridot_block").setBlockName("peridot_block");
+		peridot_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(modid + ":" +"peridot_ore").setBlockName("peridot_ore");
+		rainbow_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"rainbow_block").setBlockName("rainbow_block");
+		rose_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"rose_block").setBlockName("rose_block");
+		rose_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(modid + ":" +"rose_ore").setBlockName("rose_ore");
+		ruby_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"ruby_block").setBlockName("ruby_block");
+		ruby_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(modid + ":" +"sapphire_block").setBlockName("sapphire_block");
+		sapphire_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"sapphire_ore").setBlockName("sapphire_ore");
+		sapphire_ore = new SUBlock(Material.rock).setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(modid + ":" +"sardonyx_block").setBlockName("sardonyx_block");
+		sardonyx_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"sugilite_block").setBlockName("sugulite_block");
+		sugilite_block = new SUBlock(Material.iron).setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(modid + ":" +"ruby_ore").setBlockName("ruby_block");
 
 	}
 	
