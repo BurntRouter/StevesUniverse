@@ -29,7 +29,7 @@ public class ModItems {
 	public static ToolMaterial Ruby = EnumHelper.addToolMaterial("Ruby", 3, 1000000, 16.0f, 10.5f, 1);
 	
 	public static void initItems(){
-		amethyst_heart = new amethyst_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst");
+		amethyst_heart = new amethyst_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst").setUnlocalizedName("amethyst_heart");
 		amethyst_whip = new amethyst_whip().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":amethyst_whip");
 		bagel = new ItemFood(3, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":bagel_sandwich");
 		chips = new ItemFood(4, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":CHAAAPS");
@@ -44,7 +44,7 @@ public class ModItems {
 		lapis_heart = new lapis_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":lapis");
 		lapis_wings = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":lapis_wings");
 		pearl_heart = new pearl_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl");
-		pearl_spear = new pearl_spear(Pearl).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl_spear");
+		pearl_spear = new pearl_spear(Pearl).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl_spear").setUnlocalizedName("pearl_spear");
 		peridot_claw = new peridot_claw().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":peridot_claw");
 		peridot_heart = new peridot_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":peridot");
 		rose_heart = new rose_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose");

@@ -33,7 +33,7 @@ public class pearl_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-	        Pearl = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/pearl1.png");
+	        Pearl = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/pearl.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {
