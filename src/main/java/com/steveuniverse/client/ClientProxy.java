@@ -37,7 +37,6 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(pearlspear_entity.class, new RenderSnowball(ModItems.pearl_spear));
 		RenderingRegistry.registerEntityRenderingHandler(peridotlaser_entity.class, new RenderSnowball(ModItems.peridot_claw));
 		RenderingRegistry.registerEntityRenderingHandler(sonicscreech_entity.class, new RenderSnowball(ModItems.sapphire_screech));
-		RenderingRegistry.registerEntityRenderingHandler(rubykick_entity.class, new RenderSnowball(ModItems.ruby_kick));
 		RenderingRegistry.registerEntityRenderingHandler(pearl_entity.class, new pearl_render(new pearl_model(), 1f));
 		EntityRegistry.addSpawn(pearl_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);

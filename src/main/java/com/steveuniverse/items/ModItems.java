@@ -19,7 +19,7 @@ public class ModItems {
 	
 	public static Item amethyst_heart, amethyst_whip, bagel, chips, cookie_cat, creamed_corn, dog_nut, 
 	durian_juice, fry_bits, giant_woman, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, lapis_wings, 
-	pearl_heart, pearl_spear, peridot_claw, peridot_heart, rose_heart, rose_sword, ruby_glove, ruby_heart, ruby_kick, sapphire_glove, 
+	pearl_heart, pearl_spear, peridot_claw, peridot_heart, rose_heart, rose_sword, ruby_glove, ruby_heart, sapphire_glove, 
 	sapphire_heart, sapphire_screech, rose_shield, steven_uklele, whip_it_up;
 	
 	public static ToolMaterial Pearl = EnumHelper.addToolMaterial("Pearl", 3, 1000000, 16.0f, 5.0f, 1);
@@ -52,7 +52,6 @@ public class ModItems {
 		rose_shield = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sheild");
 		ruby_glove = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_glove");
 		ruby_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby");
-		ruby_kick = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_kick");
 		sapphire_screech = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sonic");
 		sapphire_glove = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire_glove");
 		sapphire_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire");
@@ -87,7 +86,6 @@ public class ModItems {
 		GameRegistry.registerItem(rose_sword, "rose_sword");
 		GameRegistry.registerItem(ruby_glove, "ruby_glove");
 		GameRegistry.registerItem(ruby_heart, "ruby_heart");
-		GameRegistry.registerItem(ruby_kick, "ruby_kick");
 		GameRegistry.registerItem(sapphire_glove, "sapphire_glove");
 		GameRegistry.registerItem(sapphire_heart, "sapphire_heart");
 		GameRegistry.registerItem(sapphire_screech, "sapphire_screech");
