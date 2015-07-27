@@ -49,24 +49,24 @@ public class ModBlocks {
 	public static void regBlock(){
 		GameRegistry.registerBlock(alexandrite_block, "alexandrite_block");
 		GameRegistry.registerBlock(amethyst_block, "amethyst_block");
+		GameRegistry.registerBlock(amethyst_ore, "amethyst_ore");
 		GameRegistry.registerBlock(garnet_block, "garnet_block");
 		GameRegistry.registerBlock(jasper_block, "jasper_block");
+		GameRegistry.registerBlock(jasper_ore, "jasper_ore");
 		GameRegistry.registerBlock(malachite_block, "malachite_block");
 		GameRegistry.registerBlock(opal_block, "opal_block");
 		GameRegistry.registerBlock(pearl_block, "pearl_block");
+		GameRegistry.registerBlock(pearl_ore, "pearl_ore");
 		GameRegistry.registerBlock(peridot_block, "peridot_block");
+		GameRegistry.registerBlock(peridot_ore, "peridot_ore");
 		GameRegistry.registerBlock(rainbow_block, "rainbow_block");
 		GameRegistry.registerBlock(rose_block, "rose_block");
+		GameRegistry.registerBlock(rose_ore, "rose_ore");
 		GameRegistry.registerBlock(ruby_block, "ruby_block");
 		GameRegistry.registerBlock(ruby_ore, "ruby_ore");
 		GameRegistry.registerBlock(sapphire_block, "sapphire_block");
+		GameRegistry.registerBlock(sapphire_ore, "sapphire_ore");
 		GameRegistry.registerBlock(sardonyx_block, "sardonyx_block");
 		GameRegistry.registerBlock(sugilite_block, "sugilite_block");
-		GameRegistry.registerBlock(amethyst_ore, "amethyst_ore");
-		GameRegistry.registerBlock(jasper_ore, "jasper_ore");
-		GameRegistry.registerBlock(pearl_ore, "pearl_ore");
-		GameRegistry.registerBlock(peridot_ore, "peridot_ore");
-		GameRegistry.registerBlock(rose_ore, "rose_ore");
-		GameRegistry.registerBlock(sapphire_ore, "sapphire_ore");
 	}
 }
