@@ -95,7 +95,7 @@ public class sapphire_entity extends EntityMob{
             int k = MathHelper.floor_double(this.posY);
             int l = MathHelper.floor_double(this.posZ + (double)((float)(i / 2 % 2 * 2 - 1) * 0.25F));
 
-            if (this.worldObj.getBlockMetadata(j, k, l) == 0 && this.worldObj.getBiomeGenForCoords(j, l).getFloatTemperature(l, l, l) < 0.8F && Blocks.snow_layer.canPlaceBlockAt(this.worldObj, j, k, l))
+            if (this.worldObj.getBlockMetadata(j, k, l) == 0 && Blocks.snow_layer.canPlaceBlockAt(this.worldObj, j, k, l))
             {
                 this.worldObj.setBlock(j, k, l, Blocks.snow_layer);
             }

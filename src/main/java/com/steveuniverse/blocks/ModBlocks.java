@@ -10,7 +10,7 @@ import net.minecraft.block.material.Material;
 public class ModBlocks {
 	
 	public static Block alexandrite_block, amethyst_block, amethyst_ore, 
-	garnet_block, jasper_block, jasper_ore, malachite_block, opal_block, 
+	garnet_block, ash_block, jasper_block, jasper_ore, malachite_block, opal_block, 
 	pearl_block, pearl_ore, peridot_block, peridot_ore, rainbow_block, 
 	rose_block, rose_ore, ruby_block, sapphire_block, sapphire_ore, 
 	sardonyx_block, sugilite_block, ruby_ore;
@@ -27,6 +27,7 @@ public class ModBlocks {
 		alexandrite_block = new SUBlock(Material.iron).setBlockName("alexandrite_block").setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(StevesUniverse.MODID + ":alexandrite_block");
 		amethyst_block = new SUBlock(Material.iron).setBlockName("amethyst_block").setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(StevesUniverse.MODID + ":amethyst_block");
 		amethyst_ore = new SUBlock(Material.rock).setBlockName("amethyst_ore").setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(StevesUniverse.MODID + ":amethyst_ore");
+		ash_block = new ash_block().setBlockName("ash_block").setBlockTextureName(StevesUniverse.MODID + ":ash_block");
 		garnet_block = new SUBlock(Material.iron).setBlockName("garnet_block").setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(StevesUniverse.MODID + ":garnet_block");
 		jasper_block = new SUBlock(Material.iron).setBlockName("jasper_block").setCreativeTab(ModCreativeTabs.tabSU).setLightLevel(1.0F).setHardness(5.0F).setResistance(30F).setBlockTextureName(StevesUniverse.MODID + ":jasper_block");
 		jasper_ore = new SUBlock(Material.rock).setBlockName("jasper_ore").setCreativeTab(ModCreativeTabs.tabSU).setHardness(4.0F).setBlockTextureName(StevesUniverse.MODID + ":jasper_ore");
@@ -50,6 +51,7 @@ public class ModBlocks {
 		GameRegistry.registerBlock(alexandrite_block, "alexandrite_block");
 		GameRegistry.registerBlock(amethyst_block, "amethyst_block");
 		GameRegistry.registerBlock(amethyst_ore, "amethyst_ore");
+		GameRegistry.registerBlock(ash_block, "ash_block");
 		GameRegistry.registerBlock(garnet_block, "garnet_block");
 		GameRegistry.registerBlock(jasper_block, "jasper_block");
 		GameRegistry.registerBlock(jasper_ore, "jasper_ore");
