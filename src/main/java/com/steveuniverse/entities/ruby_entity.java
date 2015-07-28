@@ -1,5 +1,7 @@
 package com.steveuniverse.entities;
 
+import com.steveuniverse.blocks.ModBlocks;
+
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAttackOnCollide;
@@ -87,9 +89,9 @@ public class ruby_entity extends EntityMob{
             int k = MathHelper.floor_double(this.posY);
             int l = MathHelper.floor_double(this.posZ + (double)((float)(i / 2 % 2 * 2 - 1) * 0.25F));
 
-            if (this.worldObj.getBlockMetadata(j, k, l) == 0 && Blocks.fire.canPlaceBlockAt(this.worldObj, j, k, l))
+            if (this.worldObj.getBlockMetadata(j, k, l) == 0 && ModBlocks.ash_block.canPlaceBlockAt(this.worldObj, j, k, l))
             {
-                this.worldObj.setBlock(j, k, l, Blocks.fire);
+                this.worldObj.setBlock(j, k, l, ModBlocks.ash_block);
             }
         }
     }
