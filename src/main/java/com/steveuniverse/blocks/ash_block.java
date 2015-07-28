@@ -123,7 +123,7 @@ public class ash_block extends Block
 
     public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
     {
-        return Items.snowball;
+        return null;
     }
 
     /**
@@ -131,7 +131,7 @@ public class ash_block extends Block
      */
     public int quantityDropped(Random p_149745_1_)
     {
-        return 1;
+        return 0;
     }
 
     /**
@@ -166,7 +166,7 @@ public class ash_block extends Block
      */
     public int quantityDropped(int meta, int fortune, Random random)
     {
-        return (meta & 7) + 1;
+        return 0;
     }
 
     /**
