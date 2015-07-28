@@ -18,12 +18,6 @@ import com.steveuniverse.renderers.rose_render;
 import com.steveuniverse.renderers.ruby_render;
 import com.steveuniverse.renderers.sapphire_render;
 
-import come.steveuniverse.models.lapislazuli_model;
-import come.steveuniverse.models.pearl_model;
-import come.steveuniverse.models.peridot_model;
-import come.steveuniverse.models.rose_model;
-import come.steveuniverse.models.ruby_model;
-import come.steveuniverse.models.sapphire_model;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import net.minecraft.client.model.ModelBiped;
@@ -37,23 +31,23 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(pearlspear_entity.class, new RenderSnowball(ModItems.pearl_spear));
 		RenderingRegistry.registerEntityRenderingHandler(peridotlaser_entity.class, new RenderSnowball(ModItems.peridot_claw));
 		RenderingRegistry.registerEntityRenderingHandler(sonicscreech_entity.class, new RenderSnowball(ModItems.sapphire_screech));
-		RenderingRegistry.registerEntityRenderingHandler(pearl_entity.class, new pearl_render(new pearl_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(pearl_entity.class, new pearl_render(new com.steveuniverse.models.pearl_model(), 1f));
 		EntityRegistry.addSpawn(pearl_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
-		RenderingRegistry.registerEntityRenderingHandler(peridot_entity.class, new peridot_render(new peridot_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(peridot_entity.class, new peridot_render(new com.steveuniverse.models.peridot_model(), 1f));
 		EntityRegistry.addSpawn(peridot_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
-		RenderingRegistry.registerEntityRenderingHandler(rose_entity.class, new rose_render(new rose_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(rose_entity.class, new rose_render(new com.steveuniverse.models.rose_model(), 1f));
 		EntityRegistry.addSpawn(rose_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
-		RenderingRegistry.registerEntityRenderingHandler(lapislazuli_entity.class, new lapislazuli_render(new lapislazuli_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(lapislazuli_entity.class, new lapislazuli_render(new com.steveuniverse.models.lapislazuli_model(), 1f));
 		EntityRegistry.addSpawn(lapislazuli_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
 
-		RenderingRegistry.registerEntityRenderingHandler(sapphire_entity.class, new sapphire_render(new sapphire_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(sapphire_entity.class, new sapphire_render(new com.steveuniverse.models.sapphire_model(), 1f));
 		EntityRegistry.addSpawn(sapphire_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
-		RenderingRegistry.registerEntityRenderingHandler(ruby_entity.class, new ruby_render(new ruby_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(ruby_entity.class, new ruby_render(new com.steveuniverse.models.ruby_model(), 1f));
 		EntityRegistry.addSpawn(ruby_entity.class, 6, 1, 5, EnumCreatureType.ambient,
 				  BiomeGenBase.plains);
 	}

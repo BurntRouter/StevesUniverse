@@ -9,9 +9,13 @@
 
 
 
-package net.minecraft.src;
+package com.steveuniverse.models;
 
-public class ModelAmethyst extends ModelBase
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
+public class amethyst_model extends ModelBase
 {
   //fields
     ModelRenderer hair_1;
@@ -51,7 +55,7 @@ public class ModelAmethyst extends ModelBase
     ModelRenderer left_lower_leg;
     ModelRenderer left_foot;
   
-  public ModelAmethyst()
+  public amethyst_model()
   {
     textureWidth = 128;
     textureHeight = 128;
@@ -325,7 +329,7 @@ public class ModelAmethyst extends ModelBase
   
   public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5)
   {
-    super.setRotationAngles(f, f1, f2, f3, f4, f5);
+    super.setRotationAngles(f, f1, f2, f3, f4, f5, null);
   }
 
 }
