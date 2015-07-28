@@ -22,6 +22,7 @@ import come.steveuniverse.models.lapislazuli_model;
 import come.steveuniverse.models.pearl_model;
 import come.steveuniverse.models.peridot_model;
 import come.steveuniverse.models.rose_model;
+import come.steveuniverse.models.ruby_model;
 import come.steveuniverse.models.sapphire_model;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
@@ -52,7 +53,7 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(sapphire_entity.class, new sapphire_render(new sapphire_model(), 1f));
 		EntityRegistry.addSpawn(sapphire_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
-		RenderingRegistry.registerEntityRenderingHandler(ruby_entity.class, new ruby_render(new sapphire_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(ruby_entity.class, new ruby_render(new ruby_model(), 1f));
 		EntityRegistry.addSpawn(ruby_entity.class, 6, 1, 5, EnumCreatureType.ambient,
 				  BiomeGenBase.plains);
 	}
