@@ -15,5 +15,7 @@ public class ModEntities {
 		EntityRegistry.registerGlobalEntityID(lapislazuli_entity.class, "LapisLazuli", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
 		EntityRegistry.registerGlobalEntityID(ruby_entity.class, "Ruby", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
 		EntityRegistry.registerGlobalEntityID(sapphire_entity.class, "Sapphire", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
+		EntityRegistry.registerGlobalEntityID(amethyst_entity.class, "Amethyst", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
+		EntityRegistry.registerGlobalEntityID(garnet_entity.class, "Garnet", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
 	}
 }

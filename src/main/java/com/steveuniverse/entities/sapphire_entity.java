@@ -41,7 +41,7 @@ public class sapphire_entity extends EntityMob{
         this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(80.0D);
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(1.0D);
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(5D);
-        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(35.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(15500.0D);
     }
 
 	@Override
