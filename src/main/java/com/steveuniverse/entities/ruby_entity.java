@@ -8,6 +8,7 @@ import net.minecraft.entity.ai.EntityAIAttackOnCollide;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAIMoveIndoors;
+import net.minecraft.entity.ai.EntityAIMoveTowardsTarget;
 import net.minecraft.entity.ai.EntityAIOpenDoor;
 import net.minecraft.entity.ai.EntityAIRestrictOpenDoor;
 import net.minecraft.entity.ai.EntityAIWander;
@@ -32,7 +33,7 @@ public class ruby_entity extends EntityMob{
     this.tasks.addTask(4, new EntityAIOpenDoor(this, true));
     this.tasks.addTask(3, new EntityAIRestrictOpenDoor(this));
     this.tasks.addTask(2, new EntityAIMoveIndoors(this));
-
+    
 	}
 	@Override
 	protected void applyEntityAttributes()
