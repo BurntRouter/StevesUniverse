@@ -295,14 +295,6 @@ public class opal_model extends ModelBase
       SymbolHolderBack.setTextureSize(256, 256);
       SymbolHolderBack.mirror = true;
       setRotation(SymbolHolderBack, 0F, 0F, 0F);
-      SymbolCoverBack.mirror = true;
-      SymbolCoverBack = new ModelRenderer(this, 121, 84);
-      SymbolCoverBack.addBox(0F, 0F, 0F, 5, 16, 0);
-      SymbolCoverBack.setRotationPoint(2.5F, 1.5F, 4.5F);
-      SymbolCoverBack.setTextureSize(256, 256);
-      SymbolCoverBack.mirror = true;
-      setRotation(SymbolCoverBack, -0.1396263F, 3.141593F, 0F);
-      SymbolCoverBack.mirror = false;
       Leg2MidT = new ModelRenderer(this, 68, 60);
       Leg2MidT.addBox(0F, 0F, 0F, 2, 1, 2);
       Leg2MidT.setRotationPoint(1.5F, 11.5F, 0F);
