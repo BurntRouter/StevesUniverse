@@ -25,7 +25,7 @@ public class garnet_render extends RenderLiving{
 	  
 	    protected void preRenderCallbackGarnet(garnet_entity entity, float f)
 	    {
-	    	GL11.glScalef(6F, 6F, 6F); 
+	    	GL11.glScalef(1F, 1F, 1F); 
 	    }
 	
 	

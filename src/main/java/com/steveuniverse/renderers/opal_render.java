@@ -26,7 +26,7 @@ public class opal_render extends RenderLiving{
 	  
 	    protected void preRenderCallbackOpal(opal_entity entity, float f)
 	    {
-	    	GL11.glScalef(1F, 1F, 1F); 
+	    	GL11.glScalef(2.6F, 2.6F, 2.6F); 
 	    }
 	
 	
