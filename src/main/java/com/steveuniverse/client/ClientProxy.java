@@ -40,7 +40,7 @@ import net.minecraft.world.biome.BiomeGenBase;
 public class ClientProxy extends CommonProxy {
 	
 	public void registerRenderers() {
-		RenderingRegistry.registerEntityRenderingHandler(pearlspear_entity.class, new RenderSnowball(Items.apple));
+		RenderingRegistry.registerEntityRenderingHandler(pearlspear_entity.class, new RenderSnowball(ModItems.pearl_spear));
 		RenderingRegistry.registerEntityRenderingHandler(peridotlaser_entity.class, new RenderSnowball(ModItems.peridot_claw));
 		RenderingRegistry.registerEntityRenderingHandler(sonicscreech_entity.class, new RenderSnowball(ModItems.sapphire_screech));
 		RenderingRegistry.registerEntityRenderingHandler(pearl_entity.class, new pearl_render(new pearl_model(), 1f));
