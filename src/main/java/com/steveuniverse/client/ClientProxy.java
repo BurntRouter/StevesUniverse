@@ -15,6 +15,7 @@ import com.steveuniverse.items.ModItems;
 import com.steveuniverse.main.CommonProxy;
 import com.steveuniverse.models.amethyst_model;
 import com.steveuniverse.models.garnet_model;
+import com.steveuniverse.models.garnet_model_1;
 import com.steveuniverse.models.lapislazuli_model;
 import com.steveuniverse.models.pearl_model;
 import com.steveuniverse.models.peridot_model;
@@ -64,7 +65,7 @@ public class ClientProxy extends CommonProxy {
 				  BiomeGenBase.plains);
 		RenderingRegistry.registerEntityRenderingHandler(amethyst_entity.class, new amethyst_render(new amethyst_model(), 1f));
 		
-		RenderingRegistry.registerEntityRenderingHandler(garnet_entity.class, new garnet_render(new garnet_model(), 1f));
+		RenderingRegistry.registerEntityRenderingHandler(garnet_entity.class, new garnet_render(new garnet_model_1(), 1f));
 	}
 
 }
