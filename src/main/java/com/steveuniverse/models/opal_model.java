@@ -3,6 +3,7 @@ package com.steveuniverse.models;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
+import net.minecraft.util.MathHelper;
 
 public class opal_model extends ModelBase
 {
@@ -354,7 +355,7 @@ public class opal_model extends ModelBase
   public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
   {
     super.render(entity, f, f1, f2, f3, f4, f5);
-    setRotationAngles(f, f1, f2, f3, f4, f5);
+    setRotationAngles(f, f1, f2, f3, f4, f5, entity);
     HeadTop.render(f5);
     Eye1.render(f5);
     Pupil1.render(f5);
@@ -412,9 +413,28 @@ public class opal_model extends ModelBase
     model.rotateAngleZ = z;
   }
   
-  public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5)
+  public void setRotationAngles(float par1, float par2, float par3, float par4, float par5, float par6, Entity par7Entity)
   {
-    super.setRotationAngles(f, f1, f2, f3, f4, f5, null);
-  }
+	    super.setRotationAngles(par1, par2, par3, par4, par5, par6, par7Entity);
+	    
+	    this.Leg1MidB.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
+	    this.Leg1MidT.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
+	    this.Foot1.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
+	    this.Heel1.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
+	    this.Foot1.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
+	    this.Toe1.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
 
+	    this.Leg2MidB.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
+	    this.Leg2MidT.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
+	    this.Foot2.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
+	    this.Heel2.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
+	    this.Toe2.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
+	   
+	    this.Arm1.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
+	    this.Arm2.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
+	    this.Arm2.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
+	    this.Arm4.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
+  {
+}
+  }
 }
