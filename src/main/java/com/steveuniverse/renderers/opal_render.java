@@ -3,6 +3,7 @@ package com.steveuniverse.renderers;
 import org.lwjgl.opengl.GL11;
 
 import com.steveuniverse.entities.garnet_entity;
+import com.steveuniverse.entities.opal_entity;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
@@ -10,9 +11,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
 
-public class garnet_render extends RenderLiving{
+public class opal_render extends RenderLiving{
 
-	public garnet_render(ModelBase parModelBase, float parShadowSize) {
+	public opal_render(ModelBase parModelBase, float parShadowSize) {
 		super(parModelBase, parShadowSize);
 	
 	}
@@ -20,18 +21,18 @@ public class garnet_render extends RenderLiving{
 	 @Override
 	    protected void preRenderCallback(EntityLivingBase entity, float f)
 	    {
-	        preRenderCallbackGarnet((garnet_entity) entity, f);
+	        preRenderCallbackOpal((opal_entity) entity, f);
 	    }
 	  
-	    protected void preRenderCallbackGarnet(garnet_entity entity, float f)
+	    protected void preRenderCallbackOpal(opal_entity entity, float f)
 	    {
-	    	GL11.glScalef(6F, 6F, 6F); 
+	    	GL11.glScalef(1F, 1F, 1F); 
 	    }
 	
 	
 	
 
-	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Garnet_3.png");
+	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Opal.png");
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity entity) 
