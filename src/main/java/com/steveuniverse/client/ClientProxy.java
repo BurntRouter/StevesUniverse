@@ -1,6 +1,7 @@
 package com.steveuniverse.client;
 
 import com.steveuniverse.entities.amethyst_entity;
+import com.steveuniverse.entities.explosivesnowball_entity;
 import com.steveuniverse.entities.garnet_entity;
 import com.steveuniverse.entities.lapislazuli_entity;
 import com.steveuniverse.entities.opal_entity;
@@ -45,6 +46,7 @@ import net.minecraft.world.biome.BiomeGenBase;
 public class ClientProxy extends CommonProxy {
 	
 	public void registerRenderers() {
+		RenderingRegistry.registerEntityRenderingHandler(explosivesnowball_entity.class, new RenderSnowball(Items.snowball));
 		RenderingRegistry.registerEntityRenderingHandler(pearlspear_entity.class, new RenderSnowball(ModItems.pearl_spear));
 		RenderingRegistry.registerEntityRenderingHandler(peridotlaser_entity.class, new RenderSnowball(ModItems.peridot_claw));
 		RenderingRegistry.registerEntityRenderingHandler(sonicscreech_entity.class, new RenderSnowball(ModItems.sapphire_screech));

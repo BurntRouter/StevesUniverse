@@ -62,7 +62,7 @@ public class ModItems {
 		rose_sword = new ItemSword(Rose).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sword").setUnlocalizedName("rose");
 		rose_shield = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sheild").setUnlocalizedName("rose_sheild");
 		ruby = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby").setUnlocalizedName("ruby");
-		ruby_glove = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_glove").setUnlocalizedName("ruby_glove");
+		ruby_glove = new ruby_glove(Ruby).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_glove").setUnlocalizedName("ruby_glove");
 		ruby_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby").setUnlocalizedName("ruby_heart");
 		sapphire = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire").setUnlocalizedName("sapphire");
 //		sapphire_screech = new Item().setTextureName(StevesUniverse.MODID + ":sonic").setUnlocalizedName("sapphire_screech");
