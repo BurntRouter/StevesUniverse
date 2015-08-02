@@ -6,7 +6,6 @@ import net.minecraft.entity.Entity;
 
 public class opal_model extends ModelBase
 {
-  //fields
     ModelRenderer HeadTop;
     ModelRenderer Eye1;
     ModelRenderer Pupil1;
@@ -21,12 +20,12 @@ public class opal_model extends ModelBase
     ModelRenderer HairHolderThing;
     ModelRenderer GemAmethyst;
     ModelRenderer Waist;
-    ModelRenderer ArmBase2;
-    ModelRenderer Arm2;
-    ModelRenderer Arm4;
     ModelRenderer ArmBase1;
+    ModelRenderer ArmBase2;
     ModelRenderer Arm1;
+    ModelRenderer Arm2;
     ModelRenderer Arm3;
+    ModelRenderer Arm4;
     ModelRenderer ThighTop;
     ModelRenderer Hair1;
     ModelRenderer Hair2;
@@ -145,42 +144,42 @@ public class opal_model extends ModelBase
       Waist.setTextureSize(256, 256);
       Waist.mirror = true;
       setRotation(Waist, 0F, 0F, 0F);
-      ArmBase2 = new ModelRenderer(this, 119, 10);
-      ArmBase2.addBox(0F, 0F, 0F, 1, 3, 4);
-      ArmBase2.setRotationPoint(3F, -7F, 0F);
-      ArmBase2.setTextureSize(256, 256);
-      ArmBase2.mirror = true;
-      setRotation(ArmBase2, 0F, 0F, 0F);
-      Arm2 = new ModelRenderer(this, 119, 10);
-      Arm2.addBox(0F, 0F, 0F, 14, 2, 2);
-      Arm2.setRotationPoint(3F, -7F, 1F);
-      Arm2.setTextureSize(256, 256);
-      Arm2.mirror = true;
-      setRotation(Arm2, 0F, 0F, 0.5061455F);
-      Arm4 = new ModelRenderer(this, 119, 10);
-      Arm4.addBox(0F, 0F, 0F, 14, 2, 2);
-      Arm4.setRotationPoint(3F, -6F, 1F);
-      Arm4.setTextureSize(256, 256);
-      Arm4.mirror = true;
-      setRotation(Arm4, 0F, 0F, 0.9773844F);
       ArmBase1 = new ModelRenderer(this, 119, 10);
       ArmBase1.addBox(0F, 0F, 0F, 1, 3, 4);
       ArmBase1.setRotationPoint(-4F, -7F, 0F);
       ArmBase1.setTextureSize(256, 256);
       ArmBase1.mirror = true;
       setRotation(ArmBase1, 0F, 0F, 0F);
+      ArmBase2 = new ModelRenderer(this, 119, 10);
+      ArmBase2.addBox(0F, 0F, 0F, 1, 3, 4);
+      ArmBase2.setRotationPoint(3F, -7F, 0F);
+      ArmBase2.setTextureSize(256, 256);
+      ArmBase2.mirror = true;
+      setRotation(ArmBase2, 0F, 0F, 0F);
       Arm1 = new ModelRenderer(this, 119, 10);
       Arm1.addBox(0F, 0F, 0F, 14, 2, 2);
       Arm1.setRotationPoint(-3F, -7F, 3F);
       Arm1.setTextureSize(256, 256);
       Arm1.mirror = true;
-      setRotation(Arm1, 0F, -3.141593F, 0.5061455F);
+      setRotation(Arm1, 0F, -3.141593F, -0.5061455F);
+      Arm2 = new ModelRenderer(this, 119, 10);
+      Arm2.addBox(0F, 0F, 0F, 14, 2, 2);
+      Arm2.setRotationPoint(3F, -7F, 1F);
+      Arm2.setTextureSize(256, 256);
+      Arm2.mirror = true;
+      setRotation(Arm2, 0F, 0F, 0.5061455F);
       Arm3 = new ModelRenderer(this, 119, 10);
       Arm3.addBox(0F, 0F, 0F, 14, 2, 2);
       Arm3.setRotationPoint(-3F, -6F, 3F);
       Arm3.setTextureSize(256, 256);
       Arm3.mirror = true;
-      setRotation(Arm3, 0F, -3.141593F, 0.9773844F);
+      setRotation(Arm3, 0F, -3.141593F, -0.9773844F);
+      Arm4 = new ModelRenderer(this, 119, 10);
+      Arm4.addBox(0F, 0F, 0F, 14, 2, 2);
+      Arm4.setRotationPoint(3F, -6F, 1F);
+      Arm4.setTextureSize(256, 256);
+      Arm4.mirror = true;
+      setRotation(Arm4, 0F, 0F, 0.9773844F);
       ThighTop = new ModelRenderer(this, 59, 58);
       ThighTop.addBox(0F, 0F, 0F, 6, 1, 4);
       ThighTop.setRotationPoint(-3F, 1.5F, 0F);
@@ -295,6 +294,12 @@ public class opal_model extends ModelBase
       SymbolHolderBack.setTextureSize(256, 256);
       SymbolHolderBack.mirror = true;
       setRotation(SymbolHolderBack, 0F, 0F, 0F);
+      SymbolCoverBack = new ModelRenderer(this, 121, 84);
+      SymbolCoverBack.addBox(0F, 0F, 0F, 5, 16, 0);
+      SymbolCoverBack.setRotationPoint(2.5F, 1.5F, 4.5F);
+      SymbolCoverBack.setTextureSize(256, 256);
+      SymbolCoverBack.mirror = true;
+      setRotation(SymbolCoverBack, -0.1396263F, 3.141593F, 0F);
       Leg2MidT = new ModelRenderer(this, 68, 60);
       Leg2MidT.addBox(0F, 0F, 0F, 2, 1, 2);
       Leg2MidT.setRotationPoint(1.5F, 11.5F, 0F);
@@ -343,6 +348,7 @@ public class opal_model extends ModelBase
       Hair7.setTextureSize(256, 256);
       Hair7.mirror = true;
       setRotation(Hair7, 0F, 0F, 0F);
+
   }
   
   public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)

@@ -82,7 +82,6 @@ public class amethyst_model_1 extends ModelBase
 	      Leg1.setTextureSize(512, 512);
 	      Leg1.mirror = true;
 	      setRotation(Leg1, 0F, 0F, 0F);
-	      Leg2.mirror = true;
 	      Leg2 = new ModelRenderer(this, 67, 18);
 	      Leg2.addBox(0F, 0F, 0F, 4, 9, 4);
 	      Leg2.setRotationPoint(1F, 13F, -3F);
