@@ -12,7 +12,7 @@ public class amethyst_render extends RenderLiving{
 	}
 
 
-	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Amethyst.png");
+	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Amethyst_1.png");
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity entity) 
