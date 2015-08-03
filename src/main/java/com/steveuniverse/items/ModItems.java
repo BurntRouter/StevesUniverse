@@ -19,8 +19,9 @@ public class ModItems {
 	
 	public static Item alexandrite, amethyst, amethyst_heart, amethyst_whip, bagel, chips, cookie_cat, creamed_corn, dog_nut, 
 	durian_juice, fry_bits, garnet, giant_woman, jasper, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, lapis_wings,
-	malachite, opal, pearl, pearl_heart, pearl_spear, peridot, peridot_claw, peridot_heart, rainbow, rose, rose_heart, rose_sword, rose_shield,
-	ruby_glove,	ruby, ruby_heart, sapphire, sapphire_glove, sapphire_heart, sapphire_screech, sardonyx, steven_ukulele, sugilite, whip_it_up;
+	malachite, malachite_hydro, opal, opal_bow, pearl, pearl_heart, pearl_spear, peridot, peridot_claw, peridot_heart, rainbow, rose,
+	rose_heart, rose_sword, rose_shield, ruby_glove, ruby, ruby_heart, sapphire, sapphire_glove, sapphire_heart, sapphire_screech,
+	sardonyx, sardonyx_hammer, steven_ukulele, sugilite, sugilite_flail, whip_it_up;
 	
 	public static ToolMaterial Pearl = EnumHelper.addToolMaterial("Pearl", 3, 1000000, 16.0f, 5.0f, 1);
 	public static ToolMaterial Amethyst = EnumHelper.addToolMaterial("Amethyst", 3, 1000000, 16.0f, 5.0f, 1);
@@ -49,6 +50,7 @@ public class ModItems {
 		lapis_heart = new lapis_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":lapislazuli").setUnlocalizedName("lapis_heart");
 		lapis_wings = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":lapis_wings").setUnlocalizedName("lapis_wings");
 		malachite = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":malachite").setUnlocalizedName("malachite");
+		malachite_hydro = new malachite_hydro(Pearl).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":malachite_hydro").setUnlocalizedName("malachite_hydro");
 		opal = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":opal").setUnlocalizedName("opal");
 		pearl = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl").setUnlocalizedName("pearl");
 		pearl_heart = new pearl_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl").setUnlocalizedName("pearl_heart");
@@ -96,6 +98,7 @@ public class ModItems {
 		GameRegistry.registerItem(lapis_heart, "lapis_heart");
 		GameRegistry.registerItem(lapis_wings, "lapis_wings");
 		GameRegistry.registerItem(malachite, "malachite");
+		GameRegistry.registerItem(malachite_hydro, "malachite_hydro");
 		GameRegistry.registerItem(opal, "opal");
 		GameRegistry.registerItem(pearl, "pearl");
 		GameRegistry.registerItem(pearl_heart, "pearl_heart");

@@ -4,6 +4,7 @@ import com.steveuniverse.blocks.ModBlocks;
 import com.steveuniverse.client.ModCreativeTabs;
 import com.steveuniverse.entities.ModEntities;
 import com.steveuniverse.entities.lapislazuli_entity;
+import com.steveuniverse.entities.malachite_entity;
 import com.steveuniverse.entities.opal_entity;
 import com.steveuniverse.entities.pearl_entity;
 import com.steveuniverse.entities.pearlspear_entity;
@@ -58,7 +59,8 @@ public class StevesUniverse {
 	EntityRegistry.registerModEntity(ruby_entity.class, "Ruby", 9, instance , 64, 10, true);
 	EntityRegistry.registerModEntity(sapphire_entity.class, "Sapphire", 10, instance , 64, 10, true);
 	EntityRegistry.registerModEntity(opal_entity.class, "Opal", 11, instance , 64, 10, true);
-}
+	EntityRegistry.registerModEntity(malachite_entity.class, "Malachite", 12, instance , 64, 10, true);
+	}
 @EventHandler
 	public static void PostLoad(FMLPostInitializationEvent Post) {
 			
