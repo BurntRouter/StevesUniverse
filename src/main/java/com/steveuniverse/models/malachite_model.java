@@ -71,14 +71,12 @@ public class malachite_model extends ModelBase
 	      NoseGem.setTextureSize(256, 256);
 	      NoseGem.mirror = true;
 	      setRotation(NoseGem, 0F, 0F, -0.7853982F);
-	      TopEye2.mirror = true;
 	      TopEye2 = new ModelRenderer(this, 0, 38);
 	      TopEye2.addBox(0F, 0F, 0F, 2, 1, 1);
 	      TopEye2.setRotationPoint(0.5F, -5F, -2.1F);
 	      TopEye2.setTextureSize(256, 256);
 	      TopEye2.mirror = true;
 	      setRotation(TopEye2, 0F, 0F, -0.2443461F);
-	      TopEye2.mirror = false;
 	      BottomEye2 = new ModelRenderer(this, 0, 31);
 	      BottomEye2.addBox(0F, 0F, 0F, 2, 2, 1);
 	      BottomEye2.setRotationPoint(0.7F, -3.5F, -2.1F);
