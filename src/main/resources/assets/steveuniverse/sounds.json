@@ -1,8 +1,3 @@
 {
-  "GiantW": {"category": "neutral","sounds": [{"name": "GiantW","stream": true}]}
-  "JamS": {"category": "neutral","sounds": [{"name": "JamS","stream": true}]}
-  "ForH": {"category": "neutral","sounds": [{"name": "ForH","stream": true}]}
-  "FullD": {"category": "neutral","sounds": [{"name": "FullD","stream": true}]}
-  "StrongerTY": {"category": "neutral","sounds": [{"name": "StrongerTY","stream": true}]}
-  "WhatCID": {"category": "neutral","sounds": [{"name": "WhatCID","stream": true}]}
+  "for_her": {"category": "ambient","sounds": [{"name": "for_her","stream": true}]}
 }
