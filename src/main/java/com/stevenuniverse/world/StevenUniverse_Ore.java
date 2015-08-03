@@ -50,7 +50,7 @@ public class StevenUniverse_Ore implements IWorldGenerator {
 	
 
 	private void generateOverworld(Random random, int chunkX, int chunkZ, World world) {
-		addOre(ModBlocks.amethyst_ore, Blocks.lapis_ore, random, world, chunkX, chunkZ, 5, 100, 10, 20, 10);
+		addOre(ModBlocks.amethyst_ore, Blocks.lapis_ore, random, world, chunkX, chunkZ,5, 100, 10, 20, 10);
 		addOre(ModBlocks.pearl_ore, Blocks.lapis_ore, random, world, chunkX, chunkZ, 5, 100, 10, 20, 10);
 		addOre(ModBlocks.rose_ore, Blocks.lapis_ore, random, world, chunkX, chunkZ, 5, 100, 10, 20, 10);
 		addOre(ModBlocks.peridot_ore, Blocks.lapis_ore, random, world, chunkX, chunkZ, 5, 100, 10, 20, 10);
