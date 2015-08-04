@@ -2,8 +2,8 @@ package com.steveuniverse.renderers;
 
 import org.lwjgl.opengl.GL11;
 
-import com.steveuniverse.entities.malachite_entity;
 import com.steveuniverse.entities.opal_entity;
+import com.steveuniverse.entities.sardonyx_entity;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
@@ -11,9 +11,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
 
-public class malachite_render extends RenderLiving{
+public class sardonyx_render extends RenderLiving{
 
-	public malachite_render(ModelBase parModelBase, float parShadowSize) {
+	public sardonyx_render(ModelBase parModelBase, float parShadowSize) {
 		super(parModelBase, parShadowSize);
 	
 	}
@@ -21,18 +21,18 @@ public class malachite_render extends RenderLiving{
 	 @Override
 	    protected void preRenderCallback(EntityLivingBase entity, float f)
 	    {
-	        preRenderCallbackMalachite((malachite_entity) entity, f);
+	        preRenderCallbackSardonyx((sardonyx_entity) entity, f);
 	    }
 	  
-	    protected void preRenderCallbackMalachite(malachite_entity entity, float f)
+	    protected void preRenderCallbackSardonyx(sardonyx_entity entity, float f)
 	    {
-	    	GL11.glScalef(7.0F, 7.0F, 7.0F); 
+	    	GL11.glScalef(1.0F, 1.0F, 1.0F); 
 	    }
 	
 	
 	
 
-	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Malachite.png");
+	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Opal.png");
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity entity) 
