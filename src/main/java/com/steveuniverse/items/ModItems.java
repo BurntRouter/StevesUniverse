@@ -18,7 +18,7 @@ public class ModItems {
 	}
 	
 	public static Item alexandrite, amethyst, amethyst_heart, amethyst_whip, bagel, chips, cookie_cat, creamed_corn, dog_nut, 
-	durian_juice, fry_bits, garnet, giant_woman, jasper, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, lapis_wings,
+	durian_juice, fry_bits, garnet, garnet_gauntlet, giant_woman, jasper, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, lapis_wings,
 	malachite, malachite_hydro, opal, opal_bow, pearl, pearl_heart, pearl_spear, peridot, peridot_claw, peridot_heart, rainbow, rose,
 	rose_heart, rose_sword, rose_shield, ruby_glove, ruby, ruby_heart, sapphire, sapphire_glove, sapphire_heart, sapphire_screech,
 	sardonyx, sardonyx_hammer, steven_ukulele, sugilite, sugilite_flail, whip_it_up;
@@ -43,7 +43,8 @@ public class ModItems {
 		durian_juice = new ItemFood(3, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":durian_juice").setUnlocalizedName("durian_juice");
 		fry_bits = new ItemFood(4, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":fry_bits").setUnlocalizedName("fry_bits");
 		garnet = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":garnet").setUnlocalizedName("garnet");
-//		giant_woman = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":giant_woman").setUnlocalizedName("giant_woman");
+		garnet_gauntlet = new garnet_gauntlet(Ruby).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":garnet_gauntlet").setUnlocalizedName("garnet_gauntlet");
+		//		giant_woman = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":giant_woman").setUnlocalizedName("giant_woman");
 		jasper = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":jasper").setUnlocalizedName("jasper");
 		jasper_crashhelmet = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":jasper_crashhelmet").setUnlocalizedName("jasper_crashhelmet");
 		jasper_heart = new jasper_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":jasper").setUnlocalizedName("jasper_heart");
@@ -52,6 +53,7 @@ public class ModItems {
 		malachite = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":malachite").setUnlocalizedName("malachite");
 		malachite_hydro = new malachite_hydro(Pearl).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":malachite_hydro").setUnlocalizedName("malachite_hydro");
 		opal = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":opal").setUnlocalizedName("opal");
+		opal_bow = new opal_bow().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":opal_bow").setUnlocalizedName("opal_bow");
 		pearl = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl").setUnlocalizedName("pearl");
 		pearl_heart = new pearl_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl").setUnlocalizedName("pearl_heart");
 		pearl_spear = new pearl_spear(Pearl).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":pearl_spear").setUnlocalizedName("pearl_spear");
@@ -71,8 +73,10 @@ public class ModItems {
 		sapphire_glove = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire_glove").setUnlocalizedName("sapphire_glove");
 		sapphire_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire").setUnlocalizedName("sapphire_heart");
 		sardonyx = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sardonyx").setUnlocalizedName("sardonyx");
+		sardonyx_hammer = new sardonyx_hammer(Ruby).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sardonyx_hammer").setUnlocalizedName("sardonyx_hammer");
 		steven_ukulele = new steven_ukulele().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":steven_ukulele").setUnlocalizedName("steven_ukulele");
 		sugilite = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sugilite").setUnlocalizedName("sugilite");
+		sugilite_flail = new sugilite_flail(Ruby).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sugilite_flail").setUnlocalizedName("sugilite_flail");
 		whip_it_up = new ItemFood(6, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":whip_it_up").setUnlocalizedName("whip_it_up");
 
 		
@@ -91,6 +95,7 @@ public class ModItems {
 		GameRegistry.registerItem(durian_juice, "durian_juice");
 		GameRegistry.registerItem(fry_bits, "fry_bits");
 		GameRegistry.registerItem(garnet, "garnet");
+		GameRegistry.registerItem(garnet_gauntlet, "garnet_gauntlet");
 //		GameRegistry.registerItem(giant_woman, "giant_woman");
 		GameRegistry.registerItem(jasper, "jasper");
 		GameRegistry.registerItem(jasper_crashhelmet, "jasper_crashhelmet");
@@ -119,8 +124,10 @@ public class ModItems {
 		GameRegistry.registerItem(sapphire_heart, "sapphire_heart");
 //		GameRegistry.registerItem(sapphire_screech, "sapphire_screech");
 		GameRegistry.registerItem(sardonyx, "sardonyx");
+		GameRegistry.registerItem(sardonyx_hammer, "sardonyx_hammer");
 		GameRegistry.registerItem(steven_ukulele, "steven_ukulele");
 		GameRegistry.registerItem(sugilite, "sugilite");
+		GameRegistry.registerItem(sugilite_flail, "sugilite_flail");
 		GameRegistry.registerItem(whip_it_up, "whip_it_up");
 		
 	}

@@ -13,6 +13,7 @@ import com.steveuniverse.entities.peridotlaser_entity;
 import com.steveuniverse.entities.rose_entity;
 import com.steveuniverse.entities.ruby_entity;
 import com.steveuniverse.entities.sapphire_entity;
+import com.steveuniverse.entities.sardonyx_entity;
 import com.steveuniverse.entities.sonicscreech_entity;
 import com.steveuniverse.items.ModItems;
 import com.steveuniverse.main.CommonProxy;
@@ -26,6 +27,7 @@ import com.steveuniverse.models.peridot_model;
 import com.steveuniverse.models.rose_model;
 import com.steveuniverse.models.ruby_model;
 import com.steveuniverse.models.sapphire_model;
+import com.steveuniverse.models.sardonyx_model;
 import com.steveuniverse.renderers.amethyst_render;
 import com.steveuniverse.renderers.garnet_render;
 import com.steveuniverse.renderers.lapislazuli_render;
@@ -36,6 +38,7 @@ import com.steveuniverse.renderers.peridot_render;
 import com.steveuniverse.renderers.rose_render;
 import com.steveuniverse.renderers.ruby_render;
 import com.steveuniverse.renderers.sapphire_render;
+import com.steveuniverse.renderers.sardonyx_render;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
@@ -77,6 +80,8 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(opal_entity.class, new opal_render(new opal_model(), 1f));
 		
 		RenderingRegistry.registerEntityRenderingHandler(malachite_entity.class, new malachite_render(new malachite_model(), 1f));
+		
+		RenderingRegistry.registerEntityRenderingHandler(sardonyx_entity.class, new sardonyx_render(new sardonyx_model(), 1f));
 	}
 
 }

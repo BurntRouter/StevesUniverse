@@ -32,7 +32,7 @@ public class sardonyx_render extends RenderLiving{
 	
 	
 
-	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Opal.png");
+	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Sardonyx.png");
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity entity) 
