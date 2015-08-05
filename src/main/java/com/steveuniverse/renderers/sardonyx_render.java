@@ -26,7 +26,7 @@ public class sardonyx_render extends RenderLiving{
 	  
 	    protected void preRenderCallbackSardonyx(sardonyx_entity entity, float f)
 	    {
-	    	GL11.glScalef(1.0F, 1.0F, 1.0F); 
+	    	GL11.glScalef(6.0F, 6.0F, 6.0F); 
 	    }
 	
 	
