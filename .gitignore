@@ -2,6 +2,7 @@
 /.settings/*
 /bin/*
 /eclipse/*
+/.metadata/*
 
 *.
 *.txt
