@@ -1,18 +1,9 @@
-sudo: false
-
 language: java
+
 jdk:
   - openjdk6
   - openjdk7
   - oraclejdk7
   - oraclejdk8
 
-git:
-  submodules: false
-before_install: git submodule update --init --recursive
-
-env: GRADLE_OPTS="-Xms1g -Xmx3g"
 script: ./gradlew build
-
-notifications:
-  email: false
