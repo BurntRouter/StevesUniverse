@@ -12,7 +12,6 @@ git:
 before_install: git submodule update --init --recursive
 
 env: GRADLE_OPTS="-Xms1g -Xmx3g"
-install: ./gradlew setupCIWorkspace
 script: ./gradlew build
 
 notifications:
