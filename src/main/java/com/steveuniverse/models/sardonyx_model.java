@@ -408,14 +408,12 @@ public class sardonyx_model extends ModelBase
 	      Arm_Left.setTextureSize(256, 256);
 	      Arm_Left.mirror = true;
 	      setRotation(Arm_Left, 0F, 0F, 0.3586602F);
-
 	      Arm_Right = new ModelRenderer(this, 49, 61);
 	      Arm_Right.addBox(-1F, 0F, -1F, 2, 12, 2);
 	      Arm_Right.setRotationPoint(6F, -8F, 0F);
 	      Arm_Right.setTextureSize(256, 256);
 	      Arm_Right.mirror = true;
-	      setRotation(Arm_Right, 0F, 0F, 0.3795191F);
-
+	      setRotation(Arm_Right, 0F, 0F, -0.3795191F);
 	      Arm_Left_2 = new ModelRenderer(this, 39, 61);
 	      Arm_Left_2.addBox(-1F, 0F, -1F, 2, 12, 2);
 	      Arm_Left_2.setRotationPoint(-2.4F, -2.933333F, 0F);
