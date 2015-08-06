@@ -21,7 +21,7 @@ public class ModItems {
 	durian_juice, fry_bits, garnet, garnet_gauntlet, giant_woman, jasper, jasper_crashhelmet, jasper_heart, lapis_heart, lapis_hydro, lapis_wings,
 	malachite, malachite_hydro, opal, opal_bow, pearl, pearl_heart, pearl_spear, peridot, peridot_claw, peridot_heart, rainbow, rose,
 	rose_heart, rose_sword, rose_shield, ruby_glove, ruby, ruby_heart, sapphire, sapphire_glove, sapphire_heart, sapphire_screech,
-	sardonyx, sardonyx_hammer, steven_ukulele, sugilite, sugilite_flail, whip_it_up;
+	sardonyx, sardonyx_hammer, steven_ukulele, sugilite, sugilite_flail, together_breakfast, whip_it_up;
 	
 	public static ToolMaterial Pearl = EnumHelper.addToolMaterial("Pearl", 3, 1000000, 16.0f, 5.0f, 1);
 	public static ToolMaterial Amethyst = EnumHelper.addToolMaterial("Amethyst", 3, 1000000, 16.0f, 5.0f, 1);
@@ -77,6 +77,7 @@ public class ModItems {
 		steven_ukulele = new steven_ukulele().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":steven_ukulele").setUnlocalizedName("steven_ukulele");
 		sugilite = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sugilite").setUnlocalizedName("sugilite");
 		sugilite_flail = new sugilite_flail(Ruby).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sugilite_flail").setUnlocalizedName("sugilite_flail");
+		together_breakfast = new ItemFood(20, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":together_breakfast").setUnlocalizedName("together_breakfast");
 		whip_it_up = new ItemFood(6, false).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":whip_it_up").setUnlocalizedName("whip_it_up");
 
 		
@@ -128,6 +129,7 @@ public class ModItems {
 		GameRegistry.registerItem(steven_ukulele, "steven_ukulele");
 		GameRegistry.registerItem(sugilite, "sugilite");
 		GameRegistry.registerItem(sugilite_flail, "sugilite_flail");
+		GameRegistry.registerItem(together_breakfast, "together_breakfast");
 		GameRegistry.registerItem(whip_it_up, "whip_it_up");
 		
 	}

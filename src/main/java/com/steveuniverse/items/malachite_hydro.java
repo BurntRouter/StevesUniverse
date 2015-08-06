@@ -19,7 +19,7 @@ public ItemStack onItemRightClick(ItemStack itemstack,World world, EntityPlayer 
 	
 
 	if(!world.isRemote){
-		world.spawnEntityInWorld(new EntityLargeFireball(world, player, 0, 0, 1));
+		world.spawnEntityInWorld(new EntityLargeFireball(world, player, 1, 1, 1));
 	}
 	
 	return itemstack;
