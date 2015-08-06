@@ -18,7 +18,6 @@ import net.minecraft.world.World;
 
 public class peridot_entity extends EntityMob{
 
-
 	public peridot_entity(World p) {
 		super(p);
 		this.getNavigator().setAvoidsWater(true);
@@ -30,16 +29,16 @@ public class peridot_entity extends EntityMob{
 		this.tasks.addTask(7, new EntityAILookIdle(this));
 		this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true));
 		this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityZombie.class, 0, true));
-		
+
 	}
 	@Override
 	protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(80.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(1.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(5D);
-        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(7000.0D);
+        getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(20.0D);
+        getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.30D);
+        getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(0.8D);
+        getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(16.0D);
     }
 
 	@Override
@@ -65,9 +64,9 @@ public class peridot_entity extends EntityMob{
         return null;
     }
     
-   
+    
     	
-   
+    
     
     @Override
     public EnumCreatureAttribute getCreatureAttribute()
