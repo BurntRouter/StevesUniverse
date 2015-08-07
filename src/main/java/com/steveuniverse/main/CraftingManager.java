@@ -23,6 +23,13 @@ public class CraftingManager {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.sapphire_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.sapphire});
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.peridot_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.peridot});
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.jasper_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.jasper});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.opal_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.opal});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.garnet_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.garnet});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.sugilite_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.sugilite});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.sardonyx_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.sardonyx});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.alexandrite_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.alexandrite});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.rainbow_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.rainbow});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.malachite_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.malachite});
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.amethyst_block, 1), new Object[]{"XXX","XXX","XXX", 'X', ModItems.amethyst});
 		GameRegistry.addRecipe(new ItemStack(ModItems.amethyst_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.amethyst});
 		GameRegistry.addRecipe(new ItemStack(ModItems.pearl_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.pearl});
@@ -32,6 +39,13 @@ public class CraftingManager {
 		GameRegistry.addRecipe(new ItemStack(ModItems.sapphire_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.sapphire});
 		GameRegistry.addRecipe(new ItemStack(ModItems.lapis_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', new ItemStack(Items.dye, 1, 4)});
 		GameRegistry.addRecipe(new ItemStack(ModItems.rose_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.rose});
+		GameRegistry.addRecipe(new ItemStack(ModItems.garnet_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.garnet});
+		GameRegistry.addRecipe(new ItemStack(ModItems.opal_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.opal});
+		GameRegistry.addRecipe(new ItemStack(ModItems.sugilite_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.sugilite});
+		GameRegistry.addRecipe(new ItemStack(ModItems.sardonyx_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.sardonyx});
+		GameRegistry.addRecipe(new ItemStack(ModItems.alexandrite_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.alexandrite});
+		GameRegistry.addRecipe(new ItemStack(ModItems.rainbow_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.rainbow});
+		GameRegistry.addRecipe(new ItemStack(ModItems.malachite_heart, 1), new Object[]{"RXR","XGX","RXR", 'X', Items.gold_ingot, 'R', Blocks.redstone_block, 'G', ModItems.malachite});
 		GameRegistry.addRecipe(new ItemStack(ModItems.cookie_cat, 4), new Object[]{"0C0","MIM","0C0", 'C', Items.cookie, 'M', Items.milk_bucket, 'I', Blocks.ice});
 		GameRegistry.addRecipe(new ItemStack(ModItems.together_breakfast, 1), new Object[]{"EAE","WMW","WMW", 'E', Items.egg, 'M', Items.milk_bucket, 'W', Items.wheat, 'A', Items.apple});
 		GameRegistry.addRecipe(new ItemStack(ModItems.dog_nut, 3), new Object[]{"CCC","PPP","CCC", 'C', Items.cake, 'P', Items.cooked_porkchop});
