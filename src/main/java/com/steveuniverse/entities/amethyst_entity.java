@@ -33,7 +33,7 @@ public class amethyst_entity extends EntityMob{
 	protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(7000.0D);
+        getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(100.0D);
         getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.30D);
         getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(0.8D);
         getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(16.0D);

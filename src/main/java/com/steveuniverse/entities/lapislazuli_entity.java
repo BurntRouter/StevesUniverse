@@ -48,22 +48,6 @@ public class lapislazuli_entity extends EntityFlying implements IMob {
 		return this.dataWatcher.getWatchableObjectByte(16) != 0;
 	}
 
-	/**
-	 * Called when the entity is attacked.
-	 */
-	@Override
-	public boolean attackEntityFrom(DamageSource par1DamageSource, float par2) {
-		if (this.isEntityInvulnerable()) {
-			return false;
-		} else if ("fireball".equals(par1DamageSource.getDamageType())
-				&& par1DamageSource.getEntity() instanceof EntityPlayer) {
-			super.attackEntityFrom(par1DamageSource, 1000.0F);
-			return true;
-		} else {
-			return super.attackEntityFrom(par1DamageSource, par2);
-		}
-	}
-
 	@Override
 	protected void entityInit() {
 		super.entityInit();
