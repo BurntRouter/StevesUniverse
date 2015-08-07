@@ -18,6 +18,7 @@ public class sardonyx_entity extends EntityMob{
 
 	public sardonyx_entity(World p) {
 		super(p);
+		setSize(3.0F, 18.0F);
 		this.getNavigator().setAvoidsWater(true);
 		this.tasks.addTask(0, new EntityAISwimming(this));
 		this.tasks.addTask(6, new EntityAIWander(this, 1.0D));

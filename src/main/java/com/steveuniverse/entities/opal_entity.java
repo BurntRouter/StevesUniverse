@@ -18,6 +18,7 @@ public class opal_entity extends EntityMob{
 
 	public opal_entity(World p) {
 		super(p);
+		setSize(1.0F, 7.0F);
 		this.getNavigator().setAvoidsWater(true);
 		this.tasks.addTask(0, new EntityAISwimming(this));
 		this.tasks.addTask(6, new EntityAIWander(this, 1.0D));
