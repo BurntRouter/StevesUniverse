@@ -1,4 +1,4 @@
-package com.stevenuniverse.world;
+package com.steveuniverse.world;
 
 import cpw.mods.fml.common.IWorldGenerator;
 import cpw.mods.fml.common.registry.GameRegistry;

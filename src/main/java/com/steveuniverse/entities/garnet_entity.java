@@ -18,6 +18,7 @@ public class garnet_entity extends EntityMob{
 
 	public garnet_entity(World p) {
 		super(p);
+		setSize(.6F,2.0F);
 		this.getNavigator().setAvoidsWater(true);
 		this.tasks.addTask(0, new EntityAISwimming(this));
 		this.tasks.addTask(6, new EntityAIWander(this, 1.0D));

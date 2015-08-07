@@ -18,6 +18,7 @@ public class malachite_entity extends EntityMob{
 
 	public malachite_entity(World p) {
 		super(p);
+		setSize(5.0F, 15.0F);
 		this.getNavigator().setAvoidsWater(false);
 		this.tasks.addTask(0, new EntityAISwimming(this));
 		this.tasks.addTask(6, new EntityAIWander(this, 1.0D));
