@@ -60,9 +60,9 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(peridot_entity.class, new peridot_render(new peridot_model(), 1f));
 		EntityRegistry.addSpawn(peridot_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
-		RenderingRegistry.registerEntityRenderingHandler(rose_entity.class, new rose_render(new rose_model(), 1f));
-		EntityRegistry.addSpawn(rose_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
-			      BiomeGenBase.plains);
+//		RenderingRegistry.registerEntityRenderingHandler(rose_entity.class, new rose_render(new rose_model(), 1f));
+//		EntityRegistry.addSpawn(rose_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
+//			      BiomeGenBase.plains);
 		RenderingRegistry.registerEntityRenderingHandler(lapislazuli_entity.class, new lapislazuli_render(new lapislazuli_model(), 1f));
 		EntityRegistry.addSpawn(lapislazuli_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);

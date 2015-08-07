@@ -11,7 +11,7 @@ public class ModEntities {
 	public static void registerEntity(){
 		EntityRegistry.registerGlobalEntityID(pearl_entity.class, "Pearl", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
 		EntityRegistry.registerGlobalEntityID(peridot_entity.class, "Peridot", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
-		EntityRegistry.registerGlobalEntityID(rose_entity.class, "RoseQuartz", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
+//		EntityRegistry.registerGlobalEntityID(rose_entity.class, "RoseQuartz", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
 		EntityRegistry.registerGlobalEntityID(lapislazuli_entity.class, "LapisLazuli", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
 		EntityRegistry.registerGlobalEntityID(ruby_entity.class, "Ruby", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
 		EntityRegistry.registerGlobalEntityID(sapphire_entity.class, "Sapphire", EntityRegistry.findGlobalUniqueEntityId(), 0x008521, 0x00FF0800);
