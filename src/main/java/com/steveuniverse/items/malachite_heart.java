@@ -12,8 +12,8 @@ public class malachite_heart extends Item{
 
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.malachite_hydro, 1));
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.lapis_wings, 1));
+//		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.malachite_hydro, 1));
+//		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.lapis_wings, 1));
 		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.jasper_crashhelmet, 1));
 		
 }

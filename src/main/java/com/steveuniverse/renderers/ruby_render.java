@@ -32,7 +32,7 @@ public class ruby_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-		   Ruby = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/Ruby.png");
+		   Ruby = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/ruby.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

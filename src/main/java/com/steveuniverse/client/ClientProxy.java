@@ -15,6 +15,7 @@ import com.steveuniverse.entities.ruby_entity;
 import com.steveuniverse.entities.sapphire_entity;
 import com.steveuniverse.entities.sardonyx_entity;
 import com.steveuniverse.entities.sonicscreech_entity;
+import com.steveuniverse.entities.steven_entity;
 import com.steveuniverse.items.ModItems;
 import com.steveuniverse.main.CommonProxy;
 import com.steveuniverse.models.amethyst_model;
@@ -28,6 +29,7 @@ import com.steveuniverse.models.rose_model;
 import com.steveuniverse.models.ruby_model;
 import com.steveuniverse.models.sapphire_model;
 import com.steveuniverse.models.sardonyx_model;
+import com.steveuniverse.models.steven_model;
 import com.steveuniverse.renderers.amethyst_render;
 import com.steveuniverse.renderers.garnet_render;
 import com.steveuniverse.renderers.lapislazuli_render;
@@ -39,6 +41,7 @@ import com.steveuniverse.renderers.rose_render;
 import com.steveuniverse.renderers.ruby_render;
 import com.steveuniverse.renderers.sapphire_render;
 import com.steveuniverse.renderers.sardonyx_render;
+import com.steveuniverse.renderers.steven_render;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
@@ -55,23 +58,23 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(peridotlaser_entity.class, new RenderSnowball(ModItems.peridot_claw));
 		RenderingRegistry.registerEntityRenderingHandler(sonicscreech_entity.class, new RenderSnowball(ModItems.sapphire_screech));
 		RenderingRegistry.registerEntityRenderingHandler(pearl_entity.class, new pearl_render(new pearl_model(), 1f));
-		EntityRegistry.addSpawn(pearl_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
+		EntityRegistry.addSpawn(pearl_entity.class, 1, 1, 1, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
 		RenderingRegistry.registerEntityRenderingHandler(peridot_entity.class, new peridot_render(new peridot_model(), 1f));
-		EntityRegistry.addSpawn(peridot_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
+		EntityRegistry.addSpawn(peridot_entity.class, 1, 1, 1, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
 //		RenderingRegistry.registerEntityRenderingHandler(rose_entity.class, new rose_render(new rose_model(), 1f));
-//		EntityRegistry.addSpawn(rose_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
+//		EntityRegistry.addSpawn(rose_entity.class, 1, 1, 1, EnumCreatureType.ambient, 
 //			      BiomeGenBase.plains);
 		RenderingRegistry.registerEntityRenderingHandler(lapislazuli_entity.class, new lapislazuli_render(new lapislazuli_model(), 1f));
-		EntityRegistry.addSpawn(lapislazuli_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
+		EntityRegistry.addSpawn(lapislazuli_entity.class, 1, 1, 1, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
 
 		RenderingRegistry.registerEntityRenderingHandler(sapphire_entity.class, new sapphire_render(new sapphire_model(), 1f));
-		EntityRegistry.addSpawn(sapphire_entity.class, 6, 1, 5, EnumCreatureType.ambient, 
+		EntityRegistry.addSpawn(sapphire_entity.class, 1, 1, 1, EnumCreatureType.ambient, 
 			      BiomeGenBase.plains);
 		RenderingRegistry.registerEntityRenderingHandler(ruby_entity.class, new ruby_render(new ruby_model(), 1f));
-		EntityRegistry.addSpawn(ruby_entity.class, 6, 1, 5, EnumCreatureType.ambient,
+		EntityRegistry.addSpawn(ruby_entity.class, 1, 1, 1, EnumCreatureType.ambient,
 				  BiomeGenBase.plains);
 		RenderingRegistry.registerEntityRenderingHandler(amethyst_entity.class, new amethyst_render(new amethyst_model(), 1f));
 		
@@ -82,6 +85,8 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(malachite_entity.class, new malachite_render(new malachite_model(), 1f));
 		
 		RenderingRegistry.registerEntityRenderingHandler(sardonyx_entity.class, new sardonyx_render(new sardonyx_model(), 1f));
+		
+		RenderingRegistry.registerEntityRenderingHandler(steven_entity.class, new steven_render(new steven_model(), 1f));
 	}
 
 }

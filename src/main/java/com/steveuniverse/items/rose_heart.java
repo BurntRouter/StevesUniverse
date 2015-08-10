@@ -15,19 +15,11 @@ public class rose_heart extends Item{
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
 		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.rose_sword, 1));
+		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.rose_shield, 1));
 		
-		for(int counter1 = 1; counter1 <= 1; counter1++){
-			if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-			entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.rose_shield, 1));
-		
-			
-				
-}
-}
-		}	
-		}
+}		
+	}
 		return itemstack;
-		
 	}
 	
 

@@ -14,7 +14,7 @@ public class sardonyx_heart extends Item{
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
 		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.garnet_gauntlet, 1));
 		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.pearl_spear, 1));
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.sardonyx_hammer, 1));
+//		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.sardonyx_hammer, 1));
 }
 }
 		return itemstack;

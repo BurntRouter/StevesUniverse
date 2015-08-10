@@ -14,9 +14,10 @@ import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.world.World;
 
-public class lapislazuli_entity extends EntityMob{
-	public lapislazuli_entity(World l){
-		super(l);
+public class steven_entity extends EntityMob{
+
+	public steven_entity(World p) {
+		super(p);
 		this.getNavigator().setAvoidsWater(true);
 		this.tasks.addTask(0, new EntityAISwimming(this));
 		this.tasks.addTask(6, new EntityAIWander(this, 1.0D));
@@ -32,7 +33,7 @@ public class lapislazuli_entity extends EntityMob{
 	protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(200.0D);
+        getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(100.0D);
         getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.30D);
         getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(0.8D);
         getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(16.0D);
@@ -69,5 +70,7 @@ public class lapislazuli_entity extends EntityMob{
     public EnumCreatureAttribute getCreatureAttribute()
     {
         return null;
-    }   
+    }
+    
+   
 }

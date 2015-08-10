@@ -34,10 +34,10 @@ public class rose_entity extends EntityMob{
 	protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(150.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(16.0D);
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(1.0D);
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(5D);
-        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(35000.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(250.0D);
     }
 
 	@Override

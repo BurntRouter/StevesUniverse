@@ -13,11 +13,7 @@ public class peridot_heart extends Item{
 
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.peridot_claw, 1));
-		
-		
-			
-				
+		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.peridot_claw, 1));									
 }
 }
 			

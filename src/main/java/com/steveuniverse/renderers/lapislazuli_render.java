@@ -17,7 +17,7 @@ public class lapislazuli_render extends RenderLiving{
 	}
 
 
-	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/LapisLazuli.png");
+	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/lapislazuli.png");
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity entity) 

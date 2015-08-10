@@ -9,7 +9,7 @@ public class steven_ukulele extends Item {
 	
 	public ItemStack onItemRightClick(ItemStack itemstack,World world, EntityPlayer player){
 		
-		 world.playSoundAtEntity(player, "steveuniverse:for_her", 10000000f, 1000f);
+		 world.playSoundAtEntity(player, "steveuniverse:for_her", 10000000f, 1f);
 		 
 		 return itemstack; 
 

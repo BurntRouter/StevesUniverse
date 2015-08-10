@@ -32,7 +32,7 @@ public class StevesUniverse {
 	public static StevesUniverse instance;
 	
 	public static final String MODID = "steveuniverse";
-	public static final String VERSION = "1.0";
+	public static final String VERSION = "1.0.2";
 	
 	@SidedProxy(clientSide = "com.steveuniverse.client.ClientProxy", serverSide = "com.steveuniverse.main.CommonProxy")
 	public static CommonProxy proxy;
@@ -45,22 +45,8 @@ public class StevesUniverse {
 		ModEntities.registerEntity();
 		ModBlocks.mainRegistry();
 		proxy.registerRenderers();
-		
 	}
-	@EventHandler
-	public static void load(FMLInitializationEvent event) {
-	EntityRegistry.registerModEntity(peridotlaser_entity.class, "PeridotLaser", 1, instance , 64, 10, true);	
-	EntityRegistry.registerModEntity(pearlspear_entity.class, "PearlS", 2, instance , 64, 10, true);	
-	EntityRegistry.registerModEntity(sonicscreech_entity.class, "SonicScreech", 3, instance , 64, 10, true);	
-	EntityRegistry.registerModEntity(pearl_entity.class, "Pearl", 5, instance , 64, 10, true);
-	EntityRegistry.registerModEntity(peridot_entity.class, "Peridot", 6, instance , 64, 10, true);
-	EntityRegistry.registerModEntity(rose_entity.class, "RoseQuartz", 7, instance , 64, 10, true);
-	EntityRegistry.registerModEntity(lapislazuli_entity.class, "LapisLazuli", 8, instance , 64, 10, true);
-	EntityRegistry.registerModEntity(ruby_entity.class, "Ruby", 9, instance , 64, 10, true);
-	EntityRegistry.registerModEntity(sapphire_entity.class, "Sapphire", 10, instance , 64, 10, true);
-	EntityRegistry.registerModEntity(opal_entity.class, "Opal", 11, instance , 64, 10, true);
-	EntityRegistry.registerModEntity(malachite_entity.class, "Malachite", 12, instance , 64, 10, true);
-	}
+	
 @EventHandler
 	public static void PostLoad(FMLPostInitializationEvent Post) {
 			
