@@ -32,7 +32,7 @@ public class rose_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-		   RoseQuartz = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/RoseQuartz.png");
+		   RoseQuartz = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/rosequartz.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

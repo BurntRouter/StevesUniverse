@@ -32,7 +32,7 @@ public class peridot_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-	        Peridot = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/Peridot.png");
+	        Peridot = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/peridot.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

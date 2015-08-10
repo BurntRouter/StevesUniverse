@@ -13,8 +13,6 @@ public class garnet_heart extends Item{
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
 		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.garnet_gauntlet, 1));
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.ruby_glove, 1));
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.sapphire_glove, 1));
 }
 }
 		return itemstack;

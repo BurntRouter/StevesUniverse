@@ -32,7 +32,7 @@ public class malachite_render extends RenderLiving{
 	
 	
 
-	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Malachite.png");
+	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/malachite.png");
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity entity) 

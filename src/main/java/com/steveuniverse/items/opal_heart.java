@@ -12,7 +12,7 @@ public class opal_heart extends Item{
 
 		for(int counter = 1; counter <= 1; counter++){
 		if(entityplayer.inventory.getCurrentItem().stackSize == 1){
-		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.opal_bow, 1));
+//		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.opal_bow, 1));
 		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.amethyst_whip, 1));
 		entityplayer.inventory.addItemStackToInventory(new ItemStack( ModItems.pearl_spear, 1));
 }

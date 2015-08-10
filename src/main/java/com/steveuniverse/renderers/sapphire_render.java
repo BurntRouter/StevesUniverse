@@ -33,7 +33,7 @@ public class sapphire_render extends RenderLiving{
     }
 	   protected void setEntityTexture()
 	    {
-	        Sapphire = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/Sapphire.png");
+	        Sapphire = new ResourceLocation(StevesUniverse.MODID + ":textures/entity/sapphire.png");
 	    }
 	@Override
 	protected ResourceLocation getEntityTexture(Entity parEntity) {

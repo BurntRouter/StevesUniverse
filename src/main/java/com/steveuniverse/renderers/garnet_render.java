@@ -31,7 +31,7 @@ public class garnet_render extends RenderLiving{
 	
 	
 
-	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/Garnet_3.png");
+	public static final ResourceLocation textureLocation = new ResourceLocation("steveuniverse:textures/entity/garnet.png");
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity entity) 
