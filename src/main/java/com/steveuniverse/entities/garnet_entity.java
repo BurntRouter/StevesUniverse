@@ -34,7 +34,7 @@ public class garnet_entity extends EntityMob{
 	protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(20.0D);
+        getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(400.0D);
         getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.30D);
         getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(0.8D);
         getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(16.0D);

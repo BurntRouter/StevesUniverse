@@ -32,7 +32,7 @@ public class StevesUniverse {
 	public static StevesUniverse instance;
 	
 	public static final String MODID = "steveuniverse";
-	public static final String VERSION = "1.0.1";
+	public static final String VERSION = "1.0.2";
 	
 	@SidedProxy(clientSide = "com.steveuniverse.client.ClientProxy", serverSide = "com.steveuniverse.main.CommonProxy")
 	public static CommonProxy proxy;

@@ -39,10 +39,10 @@ public class ruby_entity extends EntityMob{
 	protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(100.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(16.0D);
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(1.0D);
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(5D);
-        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(15500.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(200.0D);
     }
 
 	@Override
