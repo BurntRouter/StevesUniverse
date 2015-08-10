@@ -68,8 +68,8 @@ public class ModItems {
 		rainbow_heart = new rainbow_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rainbow_gem").setUnlocalizedName("rainbow_heart");
 		rose = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_gem").setUnlocalizedName("rose");
 		rose_heart = new rose_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_gem").setUnlocalizedName("rose_heart");
-		rose_sword = new ItemSword(Rose).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sword").setUnlocalizedName("rose_sword");
-		rose_shield = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_shield").setUnlocalizedName("rose_sheild");
+		rose_sword = new ItemSword(Rose).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sword").setUnlocalizedName("rose");
+		rose_shield = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_sheild").setUnlocalizedName("rose_sheild");
 		ruby = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_gem").setUnlocalizedName("ruby");
 		ruby_glove = new ruby_glove(Ruby).setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_glove").setUnlocalizedName("ruby_glove");
 		ruby_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_gem").setUnlocalizedName("ruby_heart");
