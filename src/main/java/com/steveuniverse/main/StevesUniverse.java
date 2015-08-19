@@ -3,27 +3,14 @@ package com.steveuniverse.main;
 import com.steveuniverse.blocks.ModBlocks;
 import com.steveuniverse.client.ModCreativeTabs;
 import com.steveuniverse.entities.ModEntities;
-import com.steveuniverse.entities.lapislazuli_entity;
-import com.steveuniverse.entities.malachite_entity;
-import com.steveuniverse.entities.opal_entity;
-import com.steveuniverse.entities.pearl_entity;
-import com.steveuniverse.entities.pearlspear_entity;
-import com.steveuniverse.entities.peridot_entity;
-import com.steveuniverse.entities.peridotlaser_entity;
-import com.steveuniverse.entities.rose_entity;
-import com.steveuniverse.entities.ruby_entity;
-import com.steveuniverse.entities.sapphire_entity;
-import com.steveuniverse.entities.sonicscreech_entity;
 import com.steveuniverse.items.ModItems;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.EntityRegistry;
 
 @Mod(modid = StevesUniverse.MODID, name = "Steve's Universe", version = StevesUniverse.VERSION)
 
