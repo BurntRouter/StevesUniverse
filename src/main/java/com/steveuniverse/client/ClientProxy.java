@@ -1,6 +1,7 @@
 package com.steveuniverse.client;
 
 import com.steveuniverse.entities.amethyst_entity;
+import com.steveuniverse.entities.amethystwhip_entity;
 import com.steveuniverse.entities.explosivesnowball_entity;
 import com.steveuniverse.entities.garnet_entity;
 import com.steveuniverse.entities.lapislazuli_entity;
@@ -28,6 +29,7 @@ import com.steveuniverse.models.sapphire_model;
 import com.steveuniverse.models.sardonyx_model;
 import com.steveuniverse.models.steven_model;
 import com.steveuniverse.renderers.amethyst_render;
+import com.steveuniverse.renderers.amethystwhipentity_render;
 import com.steveuniverse.renderers.garnet_render;
 import com.steveuniverse.renderers.lapislazuli_render;
 import com.steveuniverse.renderers.malachite_render;
@@ -82,6 +84,8 @@ public class ClientProxy extends CommonProxy {
 		RenderingRegistry.registerEntityRenderingHandler(sardonyx_entity.class, new sardonyx_render(new sardonyx_model(), 1f));
 		
 		RenderingRegistry.registerEntityRenderingHandler(steven_entity.class, new steven_render(new steven_model(), 1f));
+		
+		RenderingRegistry.registerEntityRenderingHandler(amethystwhip_entity.class, new amethystwhipentity_render());
 	}
 
 }

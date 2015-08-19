@@ -55,7 +55,7 @@ public class CraftingManager {
 		GameRegistry.addRecipe(new ItemStack(ModItems.whip_it_up, 2), new Object[]{"SSS","SMS","SSS", 'S', Items.sugar, 'M', Items.milk_bucket});
 		GameRegistry.addRecipe(new ItemStack(ModItems.bagel, 4), new Object[]{"0B0","EPM","0B0", 'B', Items.bread, 'E', Items.egg, 'P', Items.cooked_porkchop, 'M', Items.milk_bucket});
 		GameRegistry.addRecipe(new ItemStack(ModItems.creamed_corn, 2), new Object[]{"0W0","0W0","0M0", 'W', Items.wheat, 'M', Items.milk_bucket});
-	//Shapeless
+
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.sardonyx, 1), ModItems.pearl, ModItems.garnet);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.garnet, 1), ModItems.ruby, ModItems.sapphire);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.sugilite, 1), ModItems.amethyst, ModItems.garnet);
