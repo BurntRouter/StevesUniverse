@@ -1,6 +1,7 @@
 package com.steveuniverse.main;
 
 import com.steveuniverse.blocks.ModBlocks;
+import com.steveuniverse.client.ClientProxy;
 import com.steveuniverse.client.ModCreativeTabs;
 import com.steveuniverse.entities.ModEntities;
 import com.steveuniverse.items.ModItems;
@@ -11,6 +12,7 @@ import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.relauncher.Side;
 
 @Mod(modid = StevesUniverse.MODID, name = "Steve's Universe", version = StevesUniverse.VERSION)
 
