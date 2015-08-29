@@ -12,11 +12,6 @@ import com.steveuniverse.entities.amethystwhip_entity;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-/**
- * 
- * Copied from RenderEntityHookshot, which was copied from the vanilla leash rendering in RenderLiving.
- *
- */
 @SideOnly(Side.CLIENT)
 public class amethystwhipentity_render extends Render
 {
@@ -32,9 +27,6 @@ public class amethystwhipentity_render extends Render
 		return null;
 	}
 
-	/**
-	 * Copied from RenderLiving; not really sure what exactly it does
-	 */
 	private double func_110828_a(double par1, double par3, double par5) {
 		return par1 + (par3 - par1) * par5;
 	}

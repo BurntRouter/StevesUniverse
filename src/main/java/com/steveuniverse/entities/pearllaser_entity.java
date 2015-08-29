@@ -1,18 +1,17 @@
 package com.steveuniverse.entities;
 
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.projectile.EntityThrowable;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
 
-public class pearlspear_entity extends EntityThrowable{
+public class pearllaser_entity extends EntityThrowable{
 
-	public pearlspear_entity(World p_i1776_1_) {
+	public pearllaser_entity(World p_i1776_1_) {
 		super(p_i1776_1_);
 	}
-	public pearlspear_entity(World world,  EntityLivingBase entity){
+	public pearllaser_entity(World world,  EntityLivingBase entity){
 		super(world, entity);
 	}
 	@Override
