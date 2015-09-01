@@ -7,4 +7,4 @@ Internet Connection
 Java 6-8 (8 recommended)
 
 Build Instructions:
-Download and extract. Open command prompt/terminal. Navigate to directory through your terminal. Once in the main directory build with gradle by running "gradlew build" 
+Download and extract. Open command prompt/terminal. Navigate to directory through your terminal. Once in the main directory build with gradle by running "gradlew build" if the build completes with no errors look in /build/libs/ and there will be a file called modid-1.0.jar. That is the full built mod. If anything in this process fails please open an issue. 
