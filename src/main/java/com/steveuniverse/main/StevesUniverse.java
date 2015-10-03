@@ -3,9 +3,7 @@ package com.steveuniverse.main;
 import com.steveuniverse.blocks.ModBlocks;
 import com.steveuniverse.client.ClientProxy;
 import com.steveuniverse.client.ModCreativeTabs;
-import com.steveuniverse.entities.ModEntities;
-import com.steveuniverse.entities.pearllaser_entity;
-import com.steveuniverse.entities.pearlspear_entity;
+import com.steveuniverse.entities.*;
 import com.steveuniverse.items.ModItems;
 
 import cpw.mods.fml.common.Mod;
@@ -44,6 +42,7 @@ public class StevesUniverse {
 	public void Init(FMLInitializationEvent event){
 		EntityRegistry.registerModEntity(pearlspear_entity.class, "pearlspear_entity", 101, MODID, 64, 10, true);
 		EntityRegistry.registerModEntity(pearllaser_entity.class, "pearllaser_entity", 102, MODID, 64, 10, true);
+		EntityRegistry.registerModEntity(amethystwhip_entity.class, "amethystwhip_entity", 103, MODID, 64, 10, true);
 
 	}
 	

@@ -34,7 +34,7 @@ public class amethystwhipentity_render extends Render
 	protected void renderLeash(amethystwhip_entity whip, double x, double y, double z, float yaw, float partialTick) {
 		Entity entity = whip.getThrower(); // whip is considered 'leashed' to the player
 		if (entity != null) {
-			y -= (3.0D - (double) whip.height) * 0.5D; // since whip is so small, had to adjust to 3.0D instead of 1.6D
+			y -= (3.0D - (double) whip.height) * 3.0D; // since whip is so small, had to adjust to 3.0D instead of 1.6D
 			Tessellator tessellator = Tessellator.instance;
 			double d3 = func_110828_a((double) entity.prevRotationYaw, (double) entity.rotationYaw, (double)(partialTick * 0.5F)) * 0.01745329238474369D;
 			double d4 = func_110828_a((double) entity.prevRotationPitch, (double) entity.rotationPitch, (double)(partialTick * 0.5F)) * 0.01745329238474369D;
