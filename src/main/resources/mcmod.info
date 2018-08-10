@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "stevesuniverse",
+  "name": "Steve's Universe",
+  "description": "Steven Universe in the Minecraft Universe!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Router1011"],
+  "credits": "Cartoon Network(Don't sue me please)",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

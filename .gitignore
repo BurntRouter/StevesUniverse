@@ -1,13 +1,20 @@
-/.gradle/*
-/.settings/*
-/bin/*
-/eclipse/*
-/.metadata/*
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
 
-*.
-*.txt
-*.classpath
-*.gitattributes
-!README.txt
-*.project
-/bin/
+#eclipse
+eclipse/.recommenders
+eclipse/.recommenders/*
+.recommenders/
+
+# gradle
+build
+.gradle
+
+# other
+run
+*.gen
+*.gen
