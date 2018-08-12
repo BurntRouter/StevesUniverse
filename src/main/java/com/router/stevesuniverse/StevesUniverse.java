@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod(modid = StevesUniverse.MODID, name = StevesUniverse.NAME, acceptedMinecraftVersions = "[1.12.2]", useMetadata = true, version = StevesUniverse.VERSION)
 public class StevesUniverse {
 	
-	@SidedProxy(clientSide = "com.Router.stevesuniverse.ClientProxy", serverSide = "com.router.stevesuniverse.CommonProxy")
+	@SidedProxy(clientSide = "com.router.stevesuniverse.ClientProxy", serverSide = "com.router.stevesuniverse.CommonProxy")
 	public static CommonProxy proxy;
 	
 	public static final String MODID = "stevesuniverse";
