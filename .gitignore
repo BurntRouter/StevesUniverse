@@ -5,10 +5,7 @@ bin
 .classpath
 .project
 
-#eclipse
-eclipse/.recommenders
-eclipse/.recommenders/*
-.recommenders/
+
 
 # gradle
 build
